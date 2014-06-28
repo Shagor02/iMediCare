@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="A1">"You can  safely receive blood that is"
+    						 "\nA positive, A negative, O positive, O negative"
+    						"\nYour antibodies type B antigen"
+    						
+    </string>
+    <string name="A2">
+    				"You can  safely receive blood that is"
+    						 "\nA negative, O negative"
+    						"\nYour antibodies type B antigen"		
+    </string>
+     <string name="B1">
+    				"You can  safely receive blood that is"
+    						 "\nB positive, B negative, O positive, O negative"
+    						 "\nYour antibodies type A antigen"		
+    </string>
+     <string name="B2">
+    				"You can  safely receive blood that is"
+    						"\nB negative, O negative"
+    						 "\nYour antibodies type A antigen"	
+    </string>
+     <string name="AB1">
+         "You can  safely receive blood that is"
+    						 "\nAB positive, AB negative, A positive, \nA negative, B positive, B negative, \nO positive, O negative"
+    						 "\nYou haven neither any antigen"
+    						
+    </string>
+     <string name="AB2">
+    					"You can  safely receive blood that is"
+    						+ "\nAB negative, A negative, B negative, O negative"
+    						+ "\nYou haven neither any antigen"	
+    </string>
+      <string name="O1">
+    					"You can  safely receive blood that is"
+    						 "\nO positive, O negative"
+    						 "\nYour antibodies type A and B antigens"	
+    </string>
+    <string name="O2">
+    					"You can  safely receive blood that is"
+    						 "\nO negative"
+    						 "\nYour antibodies type A and B antigens"	
+    </string>
+    
+    
+      
+    
+</resources>

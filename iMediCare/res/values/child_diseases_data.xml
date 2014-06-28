@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <string name="disease_id_0">
+    						"Overview:\n\nAutism is a neurodevelopmental disorder characterized "
+		    						 "by impaired social interaction, verbal and non-verbal communication, "
+		    						 "and by restricted and repetitive behavior. The diagnostic criteria require that symptoms become apparent before a child is three years old."
+		    						 "Autism affects information processing in the brain by altering how nerve cells and their synapses connect and organize; how this occurs is not well understood."
+		    						 "Causes:\n\nIt has long been presumed that there is a common cause at the genetic, cognitive, and neural levels for autism's characteristic triad of symptoms."
+		    						 "However, there is increasing suspicion that autism is instead a complex disorder whose core aspects have distinct causes that often co-occur."
+		    						 "Treatment\n\nTreatment for autism is usually a very intensive, comprehensive undertaking that involves the child’s entire family and a team of professionals. Some programs may take place in your home."
+		    						 "\nThese may be based in your home with professional specialists and trained therapists or may include training for you to serve as a therapist for your child under supervision of a professional. Some programs are delivered in a specialized center, classroom or preschool. It is not unusual for a family to choose to combine more than one treatment method."
+		    			
+      </string>
+      <string name="disease_id_1">
+          "Overview:\n\nBronchiolitis is inflammation of the bronchioles, the smallest air passages of the lungs. It usually occurs in children less than two years of age with the majority being aged between three and six months."
+          "It presents with coughing, wheezing and shortness of breath which can cause some children difficulty in feeding. This inflammation is usuallycaused by respiratory syncytial virus (70% of cases) and is much more common in the winter months."
+          "\n\nCauses:\n\nThe term usually refers to acute viral bronchiolitis, a common disease in infancy. This is most commonly caused by respiratory syncytial virus(RSV, also known as human pneumovirus). Other viruses which may cause this illness include metapneumovirus, influenza, parainfluenza, coronavirus, adenovirus, and rhinovirus."
+          "\n\nPrevention:\n\nPrevention of bronchiolitis relies strongly on measures to reduce the spread of the viruses that cause respiratory infections (that is, handwashing, and avoiding exposure to those symptomatic with respiratory infections). In addition to good hygiene an improved immune system is a great tool for prevention. One way to improve the immune system is to feed the infant with breast milk, especially during the first month of life. Immunizations are available for premature infants who meet certain criteria (some cardiac and respiratory disorders) such as Palivizumab (a monoclonal antibody against RSV). Passive immunization therapy requires monthly injections every winter."
+    						
+      </string>
+	  <string name="disease_id_2">
+                
+                "Symptoms:\n\n"
+	                    			 "\nRed, quite itchy, spots or blisters are typically scattered over the entire body, spreading to the arms, legs and face.The condition, caused by the varicella zoster virus, most commonly occurs during the first decade of life."
+	                    			 "\nThe child has a moderate fever and mild flu-like symptoms prior to the rash becoming apparent."
+	                    			 "\nIt's possible for some children to have these early symptoms and to develop little or no rash, yet still to acquire long-term immunity from the condition."
+	                    			 "\nAs a rule, the older the infected child is, the more severe the disease.\n\n"
+	                    			 "Treatment:\n\n"
+	                    			 "\nSymptomatic treatment with calamine lotion and/or antihistamines, eg Piriton to reduce itching."
+	                    			 "\nTo reduce fever give paracetamol, eg Calpol and/or ibuprofen, eg Junifen."
+	                    			 "\nShould the spots become secondarily infected with bacteria, an antibiotic may be necessary. Antiviral medicine is sometimes prescribed in severe cases."
+    						
+      </string>
+      <string name="disease_id_3">
+                "Overview:\n\nCroup is a respiratory condition that is usually triggered by an acute viral infection of the upper airway. The infection leads to swelling inside the throat, which interferes with normal breathing and produces the classical symptoms of a barking cough, stridor, and hoarseness. It may produce mild, moderate, or severe symptoms, which often worsen at night. It is often treated with a single dose of oral steroids; occasionally inhaled epinephrine is used in more severe cases. Hospitalization is rarely required."
+                "\n\nCauses:\n\nCroup is usually deemed to be due to a viral infection.Others use the term more broadly, to include acute laryngotracheitis, spasmodic croup, laryngeal diphtheria, bacterial tracheitis, laryngotracheobronchitis, and laryngotracheobronchopneumonitis. The first two conditions involve a viral infection and are generally milder with respect to symptomatology; the last four are due to bacterial infection and are usually of greater severity."
+    			 "\n\nPrevention:\n\nMany cases of croup have been prevented by immunization for influenza and diphtheria.At one time, croup referred to a diphtherial disease, but with vaccination, diphtheria is now rare in the developed world."
+    			 "\n\nTreatment:\n\nChildren with croup are generally kept as calm as possible. Steroids are given routinely, with epinephrine used in severe cases. Children with oxygen saturations under 92 percent should receive oxygen, and those with severe croup may be hospitalized for observation.If oxygen is needed, blow-by administration (holding an oxygen source near the child's face) is recommended, as it causes less agitation than use of a mask. With treatment, less than 0.2 percent of people require endotracheal intubation."
+               			
+      </string>
+      <string name="disease_id_4">
+                "Overview:\n\nCystic fibrosis (CF), also known as mucoviscidosis, is an autosomal recessive genetic disorder that affects most critically the lungs, and also the pancreas, liver, and intestine. It is characterized by abnormal transport of chloride and sodium across an epithelium, leading to thick, viscous secretions."
+                "\n\nSigns and symptoms:\n\nThe main signs and symptoms of cystic fibrosis are salty tasting skin, poor growth and poor weight gain despite normal food intake, accumulation of thick, sticky mucus, frequent chest infections, and coughing or shortness of breath. Males can be infertile due to congenital absence of the vas deferens. Symptoms often appear in infancy and childhood, such as bowel obstruction due to meconium ileus in newborn babies. As the children grow, they must exercise to release mucus in the alveoli. Ciliated epithelial cells in the patient have a mutated protein that leads to abnormally viscous mucus production. The poor growth in children typically presents as an inability to gain weight or height at the same rate as their peers and is occasionally not diagnosed until investigation is initiated for poor growth. The causes of growth failure are multifactorial and include chronic lung infection, poor absorption of nutrients through the gastrointestinal tract, and increased metabolic demand due to chronic illness."
+                "\n\nCause:\n\nCF is caused by a frameshift mutation in the gene cystic fibrosis transmembrane conductance regulator (CFTR). The most common mutation, ΔF508, is a deletion (Δ signifying deletion) of three nucleotides that results in a loss of the amino acid phenylalanine (F) at the 508th position on the protein. This mutation accounts for two-thirds (66–70 percent) of CF cases worldwide and 90 percent of cases in the United States; however, there are over 1500 other mutations that can produce CF."
+                "\n\nManagement:\n\nWhile there are no cures for cystic fibrosis, there are several treatment methods. The management of cystic fibrosis has improved significantly over the past 70 years. While infants born with cystic fibrosis 70 years ago would have been unlikely to live beyond their first year, infants today are likely to live well into adulthood. Recent advances in the treatment of cystic fibrosis have meant that an individual with cystic fibrosis can live a fuller life less encumbered by their condition. The cornerstones of management are proactive treatment of airway infection, and encouragement of good nutrition and an active lifestyle. Pulmonary rehabilitation as a management of cystic fibrosis continues throughout a patient's life, and is aimed at maximizing organ function, and therefore quality of life. At best, current treatments delay the decline in organ function. Because of the wide variation in disease symptoms, treatment typically occurs at specialist multidisciplinary centers, and is tailored to the individual. Targets for therapy are the lungs, gastrointestinal tract (including pancreatic enzyme supplements), the reproductive organs (including assisted reproductive technology (ART)) and psychological support."
+    						
+      </string>
+      <string name="disease_id_5">
+    				"Overview:\n\nDiphtheria is an upper respiratory tract illness caused by Corynebacterium diphtheriae, a facultative anaerobic, Gram-positive bacterium.It is characterized by sore throat, low fever, and an adherent membrane (a pseudomembrane) on the tonsils, pharynx, and/or nasal cavity."
+    				"\n\nSigns and symptoms:\n\nThe symptoms of diphtheria usually begin two to seven days after infection. Symptoms of diphtheria include fever of 38°C (100.4°F) or above, chills, fatigue, bluish skin coloration (cyanosis), sore throat, hoarseness, cough, headache, difficulty swallowing, painful swallowing, difficulty breathing, rapid breathing, foul-smelling bloodstained nasal discharge and lymphadenopathy. Symptoms can also include cardiac arrhythmias, myocarditis, and cranial and peripheral nerve palsies."
+    				"\n\nTreatment:\n\nThe disease may remain manageable, but in more severe cases, lymph nodes in the neck may swell, and breathing and swallowing will be more difficult. People in this stage should seek immediate medical attention, as obstruction in the throat may require intubation or a tracheotomy. Abnormal cardiac rhythms can occur early in the course of the illness or weeks later, and can lead to heart failure. Diphtheria can also cause paralysis in the eye, neck, throat, or respiratory muscles. Patients with severe cases will be put in a hospital intensive care unit and be given a diphtheria antitoxin. Since antitoxin does not neutralize toxin that is already bound to tissues, delaying its administration is associated with an increase in mortality risk. Therefore, the decision to administer diphtheria antitoxin is based on clinical diagnosis, and should not await laboratory confirmation."
+    					
+      </string>
+      
+      <string name="disease_id_6">
+               "Overview:\n\nErythema infectiosum or fifth disease is one of several possible manifestations of infection by erythrovirus, previously called parvovirus B19.The disease is also referred to as slapped cheek syndrome, slapcheek, slap face or slapped face."
+               "\n\nSymptoms:\n\nFifth disease starts with a low-grade fever, headache, rash, and cold-like symptoms, such as a runny or stuffy nose. These symptoms pass, then a few days later the rash appears. The bright red rash most commonly appears in the face, particularly the cheeks. This is a defining symptom of the infection in children (hence the name "slapped cheek disease"). Occasionally the rash will extend over the bridge of the nose or around the mouth. In addition to red cheeks, children often develop a red, lacy rash on the rest of the body, with the upper arms, torso, and legs being the most common locations. The rash typically lasts a couple of days and may itch; some cases have been known to last for several weeks. Patients are usually no longer infectious once the rash has appeared."
+               "\n\nTreatment:\n\nTreatment is supportive as the infection is frequently self-limiting. Anti-pyrogens (i.e., fever reducers) are commonly used. The rash is painless and usually non-pruritic (not itchy). There is no specific therapy."
+              
+    						
+      </string>
+ 	  <string name="disease_id_7">
+    						
+      </string>
+      <string name="disease_id_8">
+    						
+      </string>
+      <string name="disease_id_9">
+    						
+      </string>
+      <string name="disease_id_10">
+    						
+      </string>
+    
+</resources>
