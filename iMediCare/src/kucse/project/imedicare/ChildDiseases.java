@@ -46,8 +46,8 @@ public class ChildDiseases extends Activity{
 	        							  
 	        							 };
 	        
-	        listView = (ListView) findViewById(R.id.chiled_diseases_listview);
-	        childDiseasesSearch = (EditText) findViewById(R.id.child_diseaseSearchTexView);
+	        listView = (ListView) findViewById(R.id.dental_care_listview);
+	        childDiseasesSearch = (EditText) findViewById(R.id.dental_careSearchTexView);
 	        
 	        
 	        listView.setOnItemClickListener(new OnItemClickListener() {
@@ -128,7 +128,7 @@ public class ChildDiseases extends Activity{
 	        
 	        
 	        // Adding items to listview
-	        arrayAdapter = new ArrayAdapter<String>(this, R.layout.childdiseases_list_items, R.id.child_diseases_name, childDiseaseArray);
+	        arrayAdapter = new ArrayAdapter<String>(this, R.layout.childdiseases_list_items, R.id.dental_care_name, childDiseaseArray);
 	        listView.setAdapter(arrayAdapter);
 	        
 	        /**

@@ -1,15 +1,14 @@
-
-
-
 <resources>
 
     <string name="app_name">iMediCare</string>
     
+    <!-- blood group checker class -->
+    
+    <string name="bloodGroupCheckertextView">Blood Group Donar Checker</string>
+    <string name="bloodgroupcheck">Check</string>
 
-
-
-    <string name="hello_world">Hello world!</string>
-    <string name="menu_settings">Settings</string>
+	<string name="bloodgroupcheckRadioA1">A+</string>
+	<string name="bloodgroupcheckRadioA2">A-</string>
     
 
  

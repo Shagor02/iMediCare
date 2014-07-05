@@ -13,14 +13,14 @@
     android:background="@drawable/bloodbg">
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/bloodGroupCheckertextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginBottom="25dp"
         android:layout_marginTop="40dp"
         android:gravity="center"
-        android:text="Blood Group Donar Checker"
+        android:text="@string/bloodGroupCheckertextView"
         android:textSize="25sp" />
 
     <RadioGroup
@@ -41,13 +41,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
       
-            android:text="A+" />
+            android:text="@string/bloodgroupcheckRadioA1"
+             />
 
         <RadioButton
             android:id="@+id/A2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="A-" />
+            
+            android:text="@string/bloodgroupcheckRadioA2"
+             />
 
         <RadioButton
             android:id="@+id/B1"
@@ -95,7 +98,8 @@
         android:layout_marginTop="10dp"
         android:background="@layout/shape"
         android:gravity="center"
-        android:text="Check" />
+        android:text="@string/bloodgroupcheck"
+        />
 
 </LinearLayout>
     

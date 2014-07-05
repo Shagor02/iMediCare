@@ -25,28 +25,31 @@ public final class R {
         public static final int B2=0x7f060006;
         public static final int BloodGroupCheckMenuBtn=0x7f060013;
         public static final int ChildDiseasesBtn=0x7f060014;
+        public static final int DentalOralCareBtn=0x7f060015;
         public static final int MuscleExerciseMenuBtn=0x7f060012;
         public static final int O1=0x7f060009;
         public static final int O2=0x7f06000a;
         public static final int SCROLLER_ID1=0x7f060000;
+        public static final int bloodGroupCheckertextView=0x7f060001;
         public static final int bloodgroupcheck=0x7f06000b;
-        public static final int child_diseaseSearchTexView=0x7f06000c;
-        public static final int child_diseases_name=0x7f06000e;
-        public static final int chiled_diseases_listview=0x7f06000d;
+        public static final int dental_careSearchTexView=0x7f06000c;
+        public static final int dental_care_listview=0x7f06000d;
+        public static final int dental_care_name=0x7f06000e;
         public static final int dialogButtonOK=0x7f060011;
         public static final int image=0x7f06000f;
         public static final int radioGroup=0x7f060002;
         public static final int text=0x7f060010;
-        public static final int textView1=0x7f060001;
     }
     public static final class layout {
         public static final int bloodgroupchecker=0x7f030000;
         public static final int child_diseases=0x7f030001;
         public static final int childdiseases_list_items=0x7f030002;
-        public static final int dialogbox=0x7f030003;
-        public static final int main_menu=0x7f030004;
-        public static final int muscle_exercise=0x7f030005;
-        public static final int shape=0x7f030006;
+        public static final int dental_care=0x7f030003;
+        public static final int dental_care_list_items=0x7f030004;
+        public static final int dialogbox=0x7f030005;
+        public static final int main_menu=0x7f030006;
+        public static final int muscle_exercise=0x7f030007;
+        public static final int shape=0x7f030008;
     }
     public static final class string {
         public static final int A1=0x7f040000;
@@ -57,7 +60,19 @@ public final class R {
         public static final int B2=0x7f040003;
         public static final int O1=0x7f040006;
         public static final int O2=0x7f040007;
-        public static final int app_name=0x7f040013;
+        public static final int app_name=0x7f040019;
+        /**  blood group checker class 
+         */
+        public static final int bloodGroupCheckertextView=0x7f04001a;
+        public static final int bloodgroupcheck=0x7f04001b;
+        public static final int bloodgroupcheckRadioA1=0x7f04001c;
+        public static final int bloodgroupcheckRadioA2=0x7f04001d;
+        public static final int dental_care_id_0=0x7f040013;
+        public static final int dental_care_id_1=0x7f040014;
+        public static final int dental_care_id_2=0x7f040015;
+        public static final int dental_care_id_3=0x7f040016;
+        public static final int dental_care_id_4=0x7f040017;
+        public static final int dental_care_id_5=0x7f040018;
         public static final int disease_id_0=0x7f040008;
         public static final int disease_id_1=0x7f040009;
         public static final int disease_id_10=0x7f040012;
@@ -69,8 +84,6 @@ public final class R {
         public static final int disease_id_7=0x7f04000f;
         public static final int disease_id_8=0x7f040010;
         public static final int disease_id_9=0x7f040011;
-        public static final int hello_world=0x7f040014;
-        public static final int menu_settings=0x7f040015;
     }
     public static final class style {
         /** 

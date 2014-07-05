@@ -12,6 +12,7 @@ public class MainMenu extends Activity {
 	 private Button MuscleExerciseMenuBtn;
 	 private Button BloodGroupCheckMenuBtn;
 	 private Button ChildDiseasesBtn;
+	 private Button DentalOralCareBtn;
 	 
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -20,7 +21,7 @@ public class MainMenu extends Activity {
 		MuscleExerciseMenuBtn= (Button)findViewById(R.id.MuscleExerciseMenuBtn);
 		BloodGroupCheckMenuBtn= (Button)findViewById(R.id.BloodGroupCheckMenuBtn);
 		ChildDiseasesBtn= (Button)findViewById(R.id.ChildDiseasesBtn);
-		
+		DentalOralCareBtn= (Button)findViewById(R.id.DentalOralCareBtn);
 		
 		MuscleExerciseMenuBtn.setOnClickListener(new View.OnClickListener() {
 		     
@@ -56,6 +57,19 @@ public class MainMenu extends Activity {
 	      	  Intent in=new Intent(MainMenu.this,ChildDiseases.class);
 	      	  startActivity(in);
 	      	  Toast.makeText(MainMenu.this,"Child Diseases",
+	                    Toast.LENGTH_SHORT).show();
+		
+			  }       
+	  });
+		
+		DentalOralCareBtn.setOnClickListener(new View.OnClickListener() {
+		     
+	        @Override
+	        public void onClick(View v) {
+
+	      	  Intent in=new Intent(MainMenu.this,DentalOralCare.class);
+	      	  startActivity(in);
+	      	  Toast.makeText(MainMenu.this,"Oral Diseases",
 	                    Toast.LENGTH_SHORT).show();
 		
 			  }       

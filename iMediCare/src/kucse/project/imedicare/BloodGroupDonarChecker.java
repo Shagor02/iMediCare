@@ -19,7 +19,6 @@ import android.widget.Toast;
 public class BloodGroupDonarChecker extends Activity {
 	final Context context = this;
 	private Button check;
-	private Button close;
     private RadioGroup radioGroup;
     private RadioButton checkedRadioButton;
     String checkedText;
@@ -71,6 +70,7 @@ public class BloodGroupDonarChecker extends Activity {
      
     			dialog.show();
     			text.setMovementMethod(new ScrollingMovementMethod());
+    			
     			if(checkedText.contains("A+")){
     				text.setText(R.string.A1);
     				

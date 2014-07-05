@@ -1,6 +1,6 @@
 package kucse.project.imedicare;
 
-import java.util.Random;
+
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -19,7 +19,7 @@ public class MuscleExercise extends Activity implements SensorEventListener{
 	  protected void onCreate(Bundle savedInstanceState) {
 	   super.onCreate(savedInstanceState);
 	   setContentView(R.layout.muscle_exercise);
-	   tv=(TextView)findViewById(R.id.textView1);
+	   tv=(TextView)findViewById(R.id.bloodGroupCheckertextView);
 	  
 	   sm=(SensorManager)this.getSystemService(Context.SENSOR_SERVICE);
 

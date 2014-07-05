@@ -4,7 +4,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="1"
+        android:minSdkVersion="13"
         android:targetSdkVersion="19" />
 
     <application
@@ -57,7 +57,7 @@
         
   </activity>
   
-  
+    <!-- Child Diseases Layout -->
      <activity 
        		android:label="@string/app_name" 
        		android:name="kucse.project.imedicare.ChildDiseases"
@@ -71,8 +71,19 @@
         
   </activity>
 
-
-  
+<!-- Oral Diseases Layout -->
+       <activity 
+       		android:label="@string/app_name" 
+       		android:name="kucse.project.imedicare.DentalOralCare"
+         	android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+       >
+    	<intent-filter>
+        
+    		<action android:name="android.intent.action.DentalOralCare"/>
+       			<category android:name="android.intent.category.DEFAULT"/>
+     	</intent-filter>
+        
+  </activity>
        
         
     </application>

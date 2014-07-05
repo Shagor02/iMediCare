@@ -8,8 +8,12 @@
     <EditText android:id="@+id/dental_careSearchTexView"
     	android:layout_width="fill_parent"
     	android:layout_height="wrap_content"
-    	android:hint="Search Disease Name"
-    	android:inputType="textVisiblePassword"/>
+    	android:hint="Search Oral Disease Name"
+    	android:inputType="textVisiblePassword">
+
+ 
+
+    </EditText>
  
 	<!-- List View -->
     <ListView
