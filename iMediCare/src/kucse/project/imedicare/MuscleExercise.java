@@ -12,18 +12,18 @@ import android.content.Context;
 
 public class MuscleExercise extends Activity implements SensorEventListener{
 	
-	SensorManager sm;
-	  TextView tv;
+	SensorManager sensor;
+	  TextView textView;
 	  int i=0;
 	  @Override
 	  protected void onCreate(Bundle savedInstanceState) {
 	   super.onCreate(savedInstanceState);
 	   setContentView(R.layout.muscle_exercise);
-	   tv=(TextView)findViewById(R.id.bloodGroupCheckertextView);
+	   textView=(TextView)findViewById(R.id.bloodGroupCheckertextView);
 	  
-	   sm=(SensorManager)this.getSystemService(Context.SENSOR_SERVICE);
+	   sensor=(SensorManager)this.getSystemService(Context.SENSOR_SERVICE);
 
-	 sm.registerListener(this,sm.getDefaultSensor(Sensor.TYPE_ACCELEROMETER),
+	 sensor.registerListener(this,sensor.getDefaultSensor(Sensor.TYPE_ACCELEROMETER),
 	SensorManager.SENSOR_DELAY_NORMAL);
 	  }
 
@@ -39,20 +39,19 @@ public class MuscleExercise extends Activity implements SensorEventListener{
 	   if(event.sensor.getType()==Sensor.TYPE_ACCELEROMETER)
 	   {
 	    //get x, y, z values
-	    float value[]=event.values;
-	    float x=value[0];
-	    float y=value[1];
-	    float z=value[2];
+	    float axis[]=event.values;
+	    float x=axis[0];
+	    float y=axis[1];
+	    float z=axis[2];
 	    
-	   float asr=(x*x+y*y+z*z)/(SensorManager.GRAVITY_EARTH*
+	   float movement=(x*x+y*y+z*z)/(SensorManager.GRAVITY_EARTH*
 	SensorManager.GRAVITY_EARTH);
 	 
-	   if(asr>=2)
+	   if(movement>=2)
 	     {
-	     
-	      
+      
 	      ++i;
-	      tv.setText(""+i);
+	      textView.setText(""+i);
 	     }
 	    }
 	  } 
