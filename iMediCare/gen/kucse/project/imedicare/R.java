@@ -37,6 +37,7 @@ public final class R {
         public static final int dental_care_name=0x7f06000e;
         public static final int dialogButtonOK=0x7f060011;
         public static final int image=0x7f06000f;
+        public static final int map=0x7f060016;
         public static final int radioGroup=0x7f060002;
         public static final int text=0x7f060010;
     }
@@ -48,8 +49,9 @@ public final class R {
         public static final int dental_care_list_items=0x7f030004;
         public static final int dialogbox=0x7f030005;
         public static final int main_menu=0x7f030006;
-        public static final int muscle_exercise=0x7f030007;
-        public static final int shape=0x7f030008;
+        public static final int map=0x7f030007;
+        public static final int muscle_exercise=0x7f030008;
+        public static final int shape=0x7f030009;
     }
     public static final class string {
         public static final int A1=0x7f040000;
