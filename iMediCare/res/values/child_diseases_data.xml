@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-      <string name="disease_id_0">
+      <string name="child_disease_id_0">
     						"Overview:\n\nAutism is a neurodevelopmental disorder characterized "
 		    						 "by impaired social interaction, verbal and non-verbal communication, "
 		    						 "and by restricted and repetitive behavior. The diagnostic criteria require that symptoms become apparent before a child is three years old."
@@ -11,14 +11,14 @@
 		    						 "\nThese may be based in your home with professional specialists and trained therapists or may include training for you to serve as a therapist for your child under supervision of a professional. Some programs are delivered in a specialized center, classroom or preschool. It is not unusual for a family to choose to combine more than one treatment method."
 		    			
       </string>
-      <string name="disease_id_1">
+      <string name="child_disease_id_1">
           "Overview:\n\nBronchiolitis is inflammation of the bronchioles, the smallest air passages of the lungs. It usually occurs in children less than two years of age with the majority being aged between three and six months."
           "It presents with coughing, wheezing and shortness of breath which can cause some children difficulty in feeding. This inflammation is usuallycaused by respiratory syncytial virus (70% of cases) and is much more common in the winter months."
           "\n\nCauses:\n\nThe term usually refers to acute viral bronchiolitis, a common disease in infancy. This is most commonly caused by respiratory syncytial virus(RSV, also known as human pneumovirus). Other viruses which may cause this illness include metapneumovirus, influenza, parainfluenza, coronavirus, adenovirus, and rhinovirus."
           "\n\nPrevention:\n\nPrevention of bronchiolitis relies strongly on measures to reduce the spread of the viruses that cause respiratory infections (that is, handwashing, and avoiding exposure to those symptomatic with respiratory infections). In addition to good hygiene an improved immune system is a great tool for prevention. One way to improve the immune system is to feed the infant with breast milk, especially during the first month of life. Immunizations are available for premature infants who meet certain criteria (some cardiac and respiratory disorders) such as Palivizumab (a monoclonal antibody against RSV). Passive immunization therapy requires monthly injections every winter."
     						
       </string>
-	  <string name="disease_id_2">
+	  <string name="child_disease_id_2">
                 
                 "Symptoms:\n\n"
 	                    			 "\nRed, quite itchy, spots or blisters are typically scattered over the entire body, spreading to the arms, legs and face.The condition, caused by the varicella zoster virus, most commonly occurs during the first decade of life."
@@ -31,45 +31,390 @@
 	                    			 "\nShould the spots become secondarily infected with bacteria, an antibiotic may be necessary. Antiviral medicine is sometimes prescribed in severe cases."
     						
       </string>
-      <string name="disease_id_3">
+      <string name="child_disease_id_3">
                 "Overview:\n\nCroup is a respiratory condition that is usually triggered by an acute viral infection of the upper airway. The infection leads to swelling inside the throat, which interferes with normal breathing and produces the classical symptoms of a barking cough, stridor, and hoarseness. It may produce mild, moderate, or severe symptoms, which often worsen at night. It is often treated with a single dose of oral steroids; occasionally inhaled epinephrine is used in more severe cases. Hospitalization is rarely required."
                 "\n\nCauses:\n\nCroup is usually deemed to be due to a viral infection.Others use the term more broadly, to include acute laryngotracheitis, spasmodic croup, laryngeal diphtheria, bacterial tracheitis, laryngotracheobronchitis, and laryngotracheobronchopneumonitis. The first two conditions involve a viral infection and are generally milder with respect to symptomatology; the last four are due to bacterial infection and are usually of greater severity."
     			 "\n\nPrevention:\n\nMany cases of croup have been prevented by immunization for influenza and diphtheria.At one time, croup referred to a diphtherial disease, but with vaccination, diphtheria is now rare in the developed world."
     			 "\n\nTreatment:\n\nChildren with croup are generally kept as calm as possible. Steroids are given routinely, with epinephrine used in severe cases. Children with oxygen saturations under 92 percent should receive oxygen, and those with severe croup may be hospitalized for observation.If oxygen is needed, blow-by administration (holding an oxygen source near the child's face) is recommended, as it causes less agitation than use of a mask. With treatment, less than 0.2 percent of people require endotracheal intubation."
                			
       </string>
-      <string name="disease_id_4">
+      <string name="child_disease_id_4">
                 "Overview:\n\nCystic fibrosis (CF), also known as mucoviscidosis, is an autosomal recessive genetic disorder that affects most critically the lungs, and also the pancreas, liver, and intestine. It is characterized by abnormal transport of chloride and sodium across an epithelium, leading to thick, viscous secretions."
                 "\n\nSigns and symptoms:\n\nThe main signs and symptoms of cystic fibrosis are salty tasting skin, poor growth and poor weight gain despite normal food intake, accumulation of thick, sticky mucus, frequent chest infections, and coughing or shortness of breath. Males can be infertile due to congenital absence of the vas deferens. Symptoms often appear in infancy and childhood, such as bowel obstruction due to meconium ileus in newborn babies. As the children grow, they must exercise to release mucus in the alveoli. Ciliated epithelial cells in the patient have a mutated protein that leads to abnormally viscous mucus production. The poor growth in children typically presents as an inability to gain weight or height at the same rate as their peers and is occasionally not diagnosed until investigation is initiated for poor growth. The causes of growth failure are multifactorial and include chronic lung infection, poor absorption of nutrients through the gastrointestinal tract, and increased metabolic demand due to chronic illness."
-                "\n\nCause:\n\nCF is caused by a frameshift mutation in the gene cystic fibrosis transmembrane conductance regulator (CFTR). The most common mutation, ΔF508, is a deletion (Δ signifying deletion) of three nucleotides that results in a loss of the amino acid phenylalanine (F) at the 508th position on the protein. This mutation accounts for two-thirds (66–70 percent) of CF cases worldwide and 90 percent of cases in the United States; however, there are over 1500 other mutations that can produce CF."
+                "\n\nCause:\n\nCF is caused by a frameshift mutation in the gene cystic fibrosis transmembrane conductance regulator (CFTR). The most common mutation, ?F508, is a deletion (? signifying deletion) of three nucleotides that results in a loss of the amino acid phenylalanine (F) at the 508th position on the protein. This mutation accounts for two-thirds (66–70 percent) of CF cases worldwide and 90 percent of cases in the United States; however, there are over 1500 other mutations that can produce CF."
                 "\n\nManagement:\n\nWhile there are no cures for cystic fibrosis, there are several treatment methods. The management of cystic fibrosis has improved significantly over the past 70 years. While infants born with cystic fibrosis 70 years ago would have been unlikely to live beyond their first year, infants today are likely to live well into adulthood. Recent advances in the treatment of cystic fibrosis have meant that an individual with cystic fibrosis can live a fuller life less encumbered by their condition. The cornerstones of management are proactive treatment of airway infection, and encouragement of good nutrition and an active lifestyle. Pulmonary rehabilitation as a management of cystic fibrosis continues throughout a patient's life, and is aimed at maximizing organ function, and therefore quality of life. At best, current treatments delay the decline in organ function. Because of the wide variation in disease symptoms, treatment typically occurs at specialist multidisciplinary centers, and is tailored to the individual. Targets for therapy are the lungs, gastrointestinal tract (including pancreatic enzyme supplements), the reproductive organs (including assisted reproductive technology (ART)) and psychological support."
     						
       </string>
-      <string name="disease_id_5">
+      <string name="child_disease_id_5">
     				"Overview:\n\nDiphtheria is an upper respiratory tract illness caused by Corynebacterium diphtheriae, a facultative anaerobic, Gram-positive bacterium.It is characterized by sore throat, low fever, and an adherent membrane (a pseudomembrane) on the tonsils, pharynx, and/or nasal cavity."
     				"\n\nSigns and symptoms:\n\nThe symptoms of diphtheria usually begin two to seven days after infection. Symptoms of diphtheria include fever of 38°C (100.4°F) or above, chills, fatigue, bluish skin coloration (cyanosis), sore throat, hoarseness, cough, headache, difficulty swallowing, painful swallowing, difficulty breathing, rapid breathing, foul-smelling bloodstained nasal discharge and lymphadenopathy. Symptoms can also include cardiac arrhythmias, myocarditis, and cranial and peripheral nerve palsies."
     				"\n\nTreatment:\n\nThe disease may remain manageable, but in more severe cases, lymph nodes in the neck may swell, and breathing and swallowing will be more difficult. People in this stage should seek immediate medical attention, as obstruction in the throat may require intubation or a tracheotomy. Abnormal cardiac rhythms can occur early in the course of the illness or weeks later, and can lead to heart failure. Diphtheria can also cause paralysis in the eye, neck, throat, or respiratory muscles. Patients with severe cases will be put in a hospital intensive care unit and be given a diphtheria antitoxin. Since antitoxin does not neutralize toxin that is already bound to tissues, delaying its administration is associated with an increase in mortality risk. Therefore, the decision to administer diphtheria antitoxin is based on clinical diagnosis, and should not await laboratory confirmation."
     					
       </string>
       
-      <string name="disease_id_6">
+      <string name="child_disease_id_6">
                "Overview:\n\nErythema infectiosum or fifth disease is one of several possible manifestations of infection by erythrovirus, previously called parvovirus B19.The disease is also referred to as slapped cheek syndrome, slapcheek, slap face or slapped face."
                "\n\nSymptoms:\n\nFifth disease starts with a low-grade fever, headache, rash, and cold-like symptoms, such as a runny or stuffy nose. These symptoms pass, then a few days later the rash appears. The bright red rash most commonly appears in the face, particularly the cheeks. This is a defining symptom of the infection in children (hence the name "slapped cheek disease"). Occasionally the rash will extend over the bridge of the nose or around the mouth. In addition to red cheeks, children often develop a red, lacy rash on the rest of the body, with the upper arms, torso, and legs being the most common locations. The rash typically lasts a couple of days and may itch; some cases have been known to last for several weeks. Patients are usually no longer infectious once the rash has appeared."
                "\n\nTreatment:\n\nTreatment is supportive as the infection is frequently self-limiting. Anti-pyrogens (i.e., fever reducers) are commonly used. The rash is painless and usually non-pruritic (not itchy). There is no specific therapy."
               
     						
       </string>
- 	  <string name="disease_id_7">
+ 	  <string name="child_disease_id_7">
+		"Overview:\n\nInfluenza, commonly known as the flu, is an infectious disease of birds and mammals caused by RNA viruses of the family Orthomyxoviridae, the influenza viruses.
+			     \nAlthough it is often confused with other influenza-like illnesses, especially the common cold, influenza is a more severe disease caused by a different type of virus."
+		"\n\nCauses:\n\nTypically, influenza is transmitted through the air by coughs or sneezes, creating aerosols containing the virus.
+			     \nInfluenza can also be transmitted by direct contact with bird droppings or nasal secretions, or through contact with contaminated surfaces.
+			     \nAirborne aerosols have been thought to cause most infections, although which means of transmission is most important is not absolutely clear."
+		"\n\nSymptoms:\n\nThe most common symptoms are chills, fever, runny nose, sore throat, muscle pains,headache (often severe), coughing, weakness/fatigue and general discomfort.
+				\nInfluenza may produce nausea and vomiting, particularly in children, but these symptoms are more common in the unrelated gastroenteritis,which is sometimes inaccurately referred to as stomach flu or 24-hour flu.
+				\n Flu can occasionally lead to pneumonia, either direct viral pneumonia or secondary bacterial pneumonia, even for persons who are usually very healthy.
+		"\n\nTreatment:\n\nPeople with the flu are advised to get plenty of rest, drink plenty of liquids, avoid using alcohol and tobacco and, if necessary,"
+				\ntake medications such as acetaminophen (paracetamol) to relieve the fever and muscle aches associated with the flu.
+				\nChildren and teenagers with flu symptoms (particularly fever) should avoid taking aspirin during an influenza infection (especially influenza type B), because doing so can lead to Reyes syndrome, a rare but potentially fatal disease of the liver.
+				\nSince influenza is caused by a virus, antibiotics have no effect on the infection; unless prescribed for secondary infections such as bacterial pneumonia.
+				\nAntiviral medication may be effective, but some strains of influenza can show resistance to the standard antiviral drugs and there is concern about the quality of the research."
     						
       </string>
-      <string name="disease_id_8">
+      
+ 	  <string name="child_disease_id_8">
+		"Overview:\n\nMeningitis known collectively as the meninges.The inflammation may be caused by infection with viruses, bacteria, or other microorganisms, and less commonly by certain drugs.
+			    \nMeningitis can be life-threatening because of the inflammations proximity to the brain and spinal cord;therefore, the condition is classified as a medical emergency.
+		"\n\nSymptoms:\n\nIn adults, the most common symptom of meningitis is a severe headache, occurring in almost 90% of cases of bacterial meningitis, followed by nuchal rigidity (the inability to flex the neck forward passively due to increased neck muscle tone and stiffness).
+				\nThe classic triad of diagnostic signs consists of nuchal rigidity, sudden high fever, and altered mental status;however, all three features are present in only 44–46 percentage of bacterial meningitis cases.
+				\n If none of the three signs are present, acute meningitis is extremely unlikely.Other signs commonly associated with meningitis include photophobia (intolerance to bright light) and phonophobia (intolerance to loud noises).
+				\nNuchal rigidity occurs in 70 percentage of bacterial meningitis in adults.Other signs of meningism include the presence of positive Kernig's sign or Brudzinski sign.Kernig's sign is assessed with the person lying supine, with the hip and knee flexed to 90 degrees.
+				\n In a person with a positive Kernigs sign, pain limits passive extension of the knee. A positive Brudzinskis sign occurs when flexion of the neck causes involuntary flexion of the knee and hip.Although Kernigs sign and Brudzinski's sign are both commonly used to screen for meningitis, the sensitivity of these tests is limited.
+				\nAnother test, known as the jolt accentuation maneuver helps determine whether meningitis is present in those reporting fever and headache.A person is asked to rapidly rotate the head horizontally, if this does not make the headache worse, meningitis is unlikely.
+		"\n\nPrevention:\n\nFor some causes of meningitis, protection can be provided in the long term through vaccination, or in the short term with antibiotics. Some behavioral measures may also be effective.
+				\nBacterial and viral meningitis are contagious however, neither is as contagious as the common cold or flu.Both can be transmitted through droplets of respiratory secretions during close contact such as kissing, sneezing or coughing on someone,
+				\nbut cannot be spread by only breathing the air where a person with meningitis has been.Viral meningitis is typically caused by enteroviruses, and is most commonly spread through fecal contamination. The risk of infection can be decreased by changing the behavior that led to transmission.
+				\nShort-term antibiotic prophylaxis is another method of prevention, particularly of meningococcal meningitis.In cases of meningococcal meningitis, prophylactic treatment of close contacts with antibiotics  (e.g. rifampicin, ciprofloxacin or ceftriaxone) can reduce their risk of contracting the condition, but does not protect against future infections.
+				\nResistance to rifampicin has been noted to increase after use, which has caused some to recommend considering other agents.While antibiotics are frequently used in an attempt to prevent meningitis in those with a  basilar skull fracture there is insufficient evidence to determine whether this is beneficial or harmful.
+				\n This applies to those with or without a CSF leak.
+				
+		"\n\nManagement:\n\nMeningitis is potentially life-threatening and has a high mortality rate if untreated;delay in treatment has been associated with a poorer outcome.Thus, treatment with wide-spectrum antibiotics should not be delayed while confirmatory tests are being conducted.
+				\nIf meningococcal disease is suspected in primary care, guidelines recommend that benzylpenicillin be administered before transfer to hospital. Intravenous fluids should be administered if hypotension (low blood pressure) or shock are present.
+				\n Given that meningitis can cause a number of early severe complications, regular medical review is recommended to identify these complications early and to admit the person to an intensive care unit if deemed necessary.
+				\nMechanical ventilation may be needed if the level of consciousness is very low, or if there is evidence of respiratory failure. If there are signs of raised intracranial pressure, measures to monitor the pressure may be taken;this would allow the optimization of the cerebral perfusion pressure and various treatments to decrease the intracranial pressure
+				\nwith medication.Seizures are treated with anticonvulsants.Hydrocephalus (obstructed flow of CSF) may require insertion of a temporary or long-term drainage device, such as a cerebral shunt.
     						
       </string>
-      <string name="disease_id_9">
+      
+ 	  <string name="child_disease_id_9">
+			"Overview:\n\nMolluscum contagiosum (MC) is a viral infection of the skin or occasionally of the mucous membranes,sometimes called water warts.
+			\nIt is caused by a DNA poxvirus called the molluscum contagiosum virus (MCV).MCV has no nonhuman-animal reservoir (infecting only humans).There are four types of MCV, MCV-1 to -4; MCV-1 is the most prevalent and MCV-2 is seen usually in adults.
+			\nThe virus that causes molluscum is spread from person to person by touching the affected skin. The virus may also be spread by touching a surface with the virus on it, such as a towel, clothing, or toys.
+			"\n\nSymptoms:\n\nMolluscum contagiosum lesions are flesh-colored, dome-shaped, and pearly in appearance.They are often 1–5 millimeters in diameter, with a dimpled center.They are generally not painful, but they may itch or become irritated.
+					\n Picking or scratching the bumps may lead to further infection or scarring.In about 10% of the cases, eczema develops around the lesions.They may occasionally be complicated by secondary bacterial infections.The viral infection is limited to a localized area on the topmost layer of the epidermis.
+					\nOnce the virus-containing head of the lesion has been destroyed, the infection is gone.The central waxy core contains the virus. In a process called autoinoculation, the virus may spread to neighboring skin areas.Children are particularly susceptible to autoinoculation, and may have widespread clusters of lesions.
+
+			"\n\nTreatment:\n\nHomeopathic Treatments:
+					\nSome homeopathic OTC treatments for molluscum contagiosum can be found in pharmacies or over the internet OTC Homeopathic treatment are approved by FDA.
+					\nThis creams are mostly made of natural components and they do not represent risks for the human body, some of the most popular creams are Conzerol, MolluscumRX and Terrasil.
+					\nThis creams doesn't have clinical based studies vs placebos. But there are several indicators that are effective in some patients.
+					\nMedications:
+					\nAstringent chemicals applied to the surface of molluscum lesions to destroy successive layers of the skin include potassium hydrochloride, and cantharidin.Two randomized, placebo controlled clinical trials treating molluscum in children with a combination of essential oils have demonstrated the effectiveness in children with molluscum.
+					\nThe second, more recent study showed a 90% or greater reduction in the number of visible molluscum lesions in 16 of 19 children (84.2%) using a combination of essential oil of Melaleuca alternifolia (tea tree oil) and organically bound iodine [15] . Tea tree oil alone worked for only 18% of children.
+					\nFor mild cases, over-the-counter wart medicines, such as salicylic acid may or may not[16] shorten infection duration. Daily topical application of tretinoin cream may also trigger resolution.hese treatments require several months for the infection to clear, and are often associated with intense inflammation and possibly discomfort.
+					\nSurgery:
+					\nSurgical treatments include cryosurgery, in which liquid nitrogen is used to freeze and destroy lesions, as well as scraping them off with a curette.Application of liquid nitrogen may cause burning or stinging at the treated site, which may persist for a few minutes after the treatment.
+					\nScarring or loss of color can complicate both these treatments. With liquid nitrogen, a blister may form at the treatment site, but it will slough off in two to four weeks.Although its use is banned by the FDA in the United States in its pure, undiluted form,
+					\nthe topical blistering agent cantharidin can be effective.
+					\nLaser:
+					\nPulsed dye laser therapy may be used for cases that are persistent and do not resolve following other measures.[28] As of 2009 however there is no evidence for genital lesions.
     						
       </string>
-      <string name="disease_id_10">
+      
+ 	  <string name="child_disease_id_10">
+			"Overview:\n\nMumps (epidemic parotitis) is a viral disease of the human species, caused by the mumps virus.Before the development of vaccination and the introduction of a vaccine, it was a common childhood disease worldwide.
+				    \nIt is still a significant threat to health in developing countries, and outbreaks still occur sporadically in developed countries.
+			"\n\nCauses:\n\nMumps is a contagious disease that is spread from person to person through contact with respiratory secretions, such as saliva from an infected person.
+				    \n When an infected person coughs or sneezes, the droplets aerosolize and can enter the eyes, nose, or mouth of another person.Mumps can also be spread by sharing food and drinks.
+				    \nThe virus can also survive on surfaces and then be spread after contact in a similar manner.A person infected with mumps is contagious from approximately 6 days before the onset of symptoms until about 9 days after symptoms start.
+				    \nA person infected with mumps is contagious from approximately 6 days before the onset of symptoms until about 9 days after symptoms start.
+				    \nThe incubation period (time until symptoms begin) can be from 14–25 days, but is typically 16–18 days.
+			"\n\nTreatment:\n\nThere is no specific treatment for mumps. Symptoms may be relieved by the application of intermittent ice or heat to the affected neck/testicular area and by acetaminophen/paracetamol for pain relief.
+				       \nWarm saltwater gargles, soft foods, and extra fluids may also help relieve symptoms. Acetylsalicylic acid (aspirin) is not used due to the risk of Reye's syndrome.According to the Department of Health of Minnesota there is no effective post-exposure recommendation to prevent secondary transmission,
+				       \nnor is the post-exposure use of vaccine or immunoglobulin effective.Patients are advised to avoid acidic foods and beverages, since these stimulate the salivary glands, which can be painful.
+			"\n\nPrevention:\n\nThe most common preventative measure against mumps is a vaccination with a mumps vaccine, invented by American microbiologist Maurice Hilleman at Merck.The vaccine may be given separately or as part of the MMR immunization vaccine which also protects against measles and rubella.
+					\nIn the US, MMR is now being supplanted by MMRV, which adds protection against chickenpox. The WHO (World Health Organization) recommends the use of mumps vaccines in all countries with well-functioning childhood vaccination programmes. In the United Kingdom it is routinely given to children at age 13 months with a booster at 3–5 years(preschool) This confers lifelong immunity.
+					\nThe American Academy of Pediatrics recommends the routine administration of MMR vaccine at ages 12–15 months and at 4–6 years. In some locations, the vaccine is given again between 4 to 6 years of age, or between 11 and 12 years of age if not previously given.
+					\nThe efficacy of the vaccine depends on the strain of the vaccine, but is usually around 80%.The Jeryl Lynn strain is most commonly used in developed countries but has been shown to have reduced efficacy in epidemic situations.The Leningrad-Zagreb strain commonly used in developing countries appears to have superior efficacy in epidemic situations.
     						
       </string>
+      
+ 	  <string name="child_disease_id_11">
+			"Overview:\n\nPneumonia is an inflammatory condition of the lung affecting primarily the microscopic air sacs known as alveoli.It is usually caused by infection with viruses or bacteria and less commonly other microorganisms,
+				    \n certain drugs and other conditions such as autoimmune diseases.
+			"\n\nCauses:\n\nPneumonia is due to infections caused primarily by bacteria or viruses and less commonly by fungi and parasites. Although there are more than 100 strains of infectious agents identified, only a few are responsible for the majority of the cases.
+				     \nMixed infections with both viruses and bacteria may occur in up to 45% of infections in children and 15% of infections in adults.A causative agent may not be isolated in approximately half of cases despite careful testing.
+			"\n\nSymptoms:\n\nPeople with infectious pneumonia often have a productive cough, fever accompanied by shaking chills, shortness of breath, sharp or stabbing chest pain during deep breaths, and an increased respiratory rate.
+					\nIn the elderly, confusion may be the most prominent sign.The typical signs and symptoms in children under five are fever, cough, and fast or difficult breathing.Fever is not very specific, as it occurs in many other common illnesses, and may be absent in those with severe disease or malnutrition.
+				        \nIn addition, a cough is frequently absent in children less than 2 months old.More severe signs and symptoms may include blue-tinged skin, decreased thirst, convulsions persistent vomiting, extremes of temperature, or a decreased level of consciousness.
+			"\n\nPrevention:\n\nPrevention includes vaccination, environmental measures and appropriate treatment of other health problems.Vaccination prevents against certain bacterial and viral pneumonias both in children and adults. Influenza vaccines are modestly effective against influenza A and B.The Center for Disease Control and Prevention (CDC) recommends yearly vaccination for every person 6 months and older.
+					\n Immunizing health care workers decreases the risk of viral pneumonia among their patients.When influenza outbreaks occur, medications such as amantadine or rimantadine may help prevent the condition.Smoking cessation[37] and reducing indoor air pollution, such as that from cooking indoors with wood or dung, are both recommended.Smoking appears to be the single biggest risk factor for pneumococcal pneumonia in otherwise-healthy adults.
+					\nHand hygiene and coughing into one's sleeve may also be effective preventative measures.Wearing surgical masks by the sick may also prevent illness.
+    						
+      </string>
+      
+ 	  <string name="child_disease_id_12">
+			"Overview:\n\nNephrotic syndrome is a nonspecific kidney disorder characterised by a number of signs of disease: proteinuria, hypoalbuminemia and edema. It is characterized by an increase in permeability of the capillary walls of the glomerulus leading to the presence of high levels of protein passing from the blood into the urine (proteinuria at least 3.5 grams per day per 1.73m2 body surface area);
+ 			"\n\nCauses:\n\nPrimary glomerulonephritis:
+				     \nPrimary causes of nephrotic syndrome are usually described by their histology:
+				     \nMinimal change disease (MCD): is the most common cause of nephrotic syndrome in children. It owes its name to the fact that the nephrons appear normal when viewed with an optical microscope as the lesions are only visible using an electron microscope. Another symptom is a pronounced proteinuria.
+					\nMembranous glomerulonephritis (IMN): The inflammation of the glomerular membrane causes increased leaking in the kidney. It is not clear why this condition develops in most people, although an auto-immune mechanism is suspected.
+					\nMesangial proliferative glomerulonephritis (MPGN): is the inflammation of the glomeruli along with the deposit of antibodies in their membranes, which makes filtration difficult.
+					\nSecondary glomerulonephritis:
+  					\nDiabetic nephropathy: is a complication that occurs in some diabetics. Excess blood sugar accumulates in the kidney causing them to become inflamed and unable to carry out their normal function. This leads to the leakage of proteins into the urine.
+					\nSystemic lupus erythematosus: this autoimmune disease can affect a number of organs, among them the kidney, due to the deposit of immunocomplexes that are typical to this disease. The disease can also cause lupus nephritis.
+					\nSyphilis: kidney damage can occur during the secondary stage of this disease (between 2 and 8 weeks from onset).
+					\nHepatitis B: certain antigens present during hepatitis can accumulate in the kidneys and damage them.
+				    
+			"\n\nSymptoms:\n\nIt is characterized by proteinuria (>3.5g/day), hypoalbuminemia, hyperlipidaemia, and edema (which is generalized and also known as anasarca or dropsy) that begins in the face. Lipiduria (lipids in urine) can also occur, but is not essential for the diagnosis of nephrotic syndrome. Hyponatremia also occurs with a low fractional sodium excretion.
+					\nHyperlipidaemia is caused by two factors:
+					\nHypoproteinemia stimulates protein synthesis in the liver, resulting in the overproduction of lipoproteins.
+					\nLipid catabolism is decreased due to lower levels of lipoprotein lipase, the main enzyme involved in lipoprotein breakdown.[3] Cofactors, such as Apolipoprotein C2 may also be lost by increased filtration of proteins.Most of the patients are normotensive but hypertension (rarely) may also occur.
+					\nAnaemia (iron resistant microcytic hypochromic type) maybe present due to transferrin loss.
+			"\n\nTreatment:\n\nThe treatment of nephrotic syndrome can be symptomatic or can directly address the injuries caused to the kidney.
+					\nSymptomatic treatment:
+					\nThe objective of this treatment is to treat the imbalances brought about by the illness:[32] edema, hypoalbuminemia, hyperlipemia, hypercoagulability and infectious complications.
+					\nEdema: a return to an unswollen state is the prime objective of this treatment of nephrotic syndrome. It is carried out through the combination of a number of recommendations:
+					\nRest: depending on the seriousness of the edema and taking into account the risk of thrombosis caused by prolonged bed rest.
+					\nMedication: The pharmacological treatment of edema is based on the prescription of diuretic drugs (especially loop diuretics, such as furosemide). In severe cases of edema (or in cases with physiological repercussions, such as scrotal, preputial or urethral edema) or in patients with one of a number of severe infections (such as sepsis or pleural effusion, the diuretics can be administered intravenously. 
+					\nHypoalbuminemia: is treated using the medical nutrition therapy described as a treatment for edema. It includes a moderate intake of foods rich in animal proteins.
+					\nHyperlipidaemia: depending of the seriousness of the condition it can be treated with medical nutrition therapy as the only treatment or combined with drug therapy. The ingestion of cholesterol should be less than 300 mg/day,[34] which will require a switch to foods that are low in saturated fats.[38] Avoid saturated fats such as butter, cheese, fried foods, fatty cuts of red meat, egg yolks, and poultry skin. Increase unsaturated fat intake, including olive oil, canola oil, peanut butter, avocadoes, fish and nuts. In cases of severe hyperlipidaemia that are unresponsive to nutrition therapy the use of hypolipidemic drugs, may be necessary (these include statins, fibrates and resinous sequesters of bile acids).
+ 					\nThrombophilia: low molecular weight heparin (LMWH) may be appropriate for use as a prophylactic in some circumstances, such as in asymptomatic patients that have no history of suffering from thromboembolism.   						
+      </string>
+      
+ 	  <string name="child_disease_id_13">
+					"Overview:\n\nPink eye (conjunctivitis) is an inflammation of the tissue on the surface of the eye and/or the inside lining of the eyelids.Common causes in children are usually due to infection with viruses or bacteria, allergies,
+						   \nor an environmental irritant such as chemicals, fumes, dust, or debris.or an environmental irritant such as chemicals, fumes, dust, or debris.
+					"\nSymptoms:\n\nThe eye is usually pink to red and appears irritated.nfectious conjunctivitis affects one or both eyes and may or may not be accompanied by discharge (tears, mucous, or pus).
+						   \nhe lids may be stuck together in the morning upon waking, and goopy discharge may continue to accumulate through the day.
+						   \nAllergic conjunctivitis usually affects both eyes and can cause tearing and frequent rubbing.The area around the eye may also be swollen from the constant rubbing.Sometimes the child will also have other allergic symptoms that come during the allergy seasons,
+						   \nsuch as a chronic runny nose, constant tickle in the throat, and sneezing.Irritant conjunctivitis can cause burning, itching, a sandy or gravely feeling, and even pain in the eye.
+					"\n\nTreatment:\n\nTopical antibiotic, anti-inflammatory, or anti-allergy drops may all be prescribed by your child's doctor.Even though the treatments may be difficult to put in the child's eye(s), make sure to complete the full prescribed course.
+							\nIf the pink eye is related to another disease elsewhere in the body (such as allergies, ear infections, or respiratory disease), oral medications may be prescribed.
+    						
+      </string>
+      
+ 	  <string name="child_disease_id_14">
+					"Overview:\n\nPoliomyelitis /po?lio?ma??la?t?s/, often called polio or infantile paralysis, is an acute, viral, infectious disease spread from person to person, primarily via the fecal-oral route.The term derives from the Ancient Greek poliós (p?????), meaning "grey", myelós (µ?e??? “marrow”), referring to the grey matter of the spinal cord,
+						  \n and the suffix -itis, which denotes inflammation.,[2] i.e., inflammation of the spinal cord’s grey matter, although a severe infection can extend into the brainstem and even higher structures, resulting in polioencephalitis, producing apnea that requires mechanical assistance such as an iron lung.
+					"\n\nCauses:\n\nPoliomyelitis is caused by infection with a member of the genus Enterovirus known as poliovirus (PV).This group of RNA viruses colonize the gastrointestinal tract[1] — specifically the oropharynx and the intestine.The incubation time (to the first signs and symptoms) ranges from three to 35 days, with a more common span of six to 20 days.
+							\nPV infects and causes disease in humans alone.[3] Its structure is very simple, composed of a single (+) sense RNA genome enclosed in a protein shell called a capsid.PV infects and causes disease in humans alone.[3] Its structure is very simple, composed of a single (+) sense RNA genome enclosed in a protein shell called a capsid.
+							\nIn addition to protecting the virus’s genetic material, the capsid proteins enable poliovirus to infect certain types of cells.Three serotypes of poliovirus have been identified—poliovirus type 1 (PV1), type 2 (PV2), and type 3 (PV3)—each with a slightly different capsid protein.All three are extremely virulent and produce the same disease symptoms.
+							\n PV1 is the most commonly encountered form, and the one most closely associated with paralysis.
+					"\n\nTreatment:\n\nThere is no cure for polio. The focus of modern treatment has been on providing relief of symptoms, speeding recovery and preventing complications.Supportive measures include antibiotics to prevent infections in weakened muscles, analgesics for pain, moderate exercise and a nutritious diet. Treatment of polio often requires long-term rehabilitation, including occupational therapy, physical therapy, braces, corrective shoes and, in some cases, orthopedic surgery.
+							\nPortable ventilators may be required to support breathing. Historically, a noninvasive, negative-pressure ventilator, more commonly called an iron lung, was used to artificially maintain respiration during an acute polio infection until a person could breathe independently (generally about one to two weeks). Today, many polio survivors with permanent respiratory paralysis use modern jacket-type negative-pressure ventilators worn over the chest and abdomen.
+							\nOther historical treatments for polio include hydrotherapy, electrotherapy, massage and passive motion exercises, and surgical treatments, such as tendon lengthening and nerve grafting.
+    						
+      </string>
+      
+ 	  <string name="child_disease_id_15">
+				"Overview:\n\nScalp ringworm (tinea capitis) is a common mild infection of the scalp and hair that appears as scaly spots and patches of broken hair on the head.Caused by a fungus, it is most commonly seen in children.
+					   \nScalp ringworm may be passed among humans by direct contact with infected people or with contaminated objects (such as combs, pillows, and sofas).Less commonly, the fungus may be spread from infected animals (especially cats or dogs) or from the soil.
+				"\n\nSymptoms:\n\nThe most common locations for scalp ringworm include:
+					       \nScalp
+						\nEyebrow (rare)
+						\nEyelashes (very rare)
+						\nScalp ringworm appears as one or more round to oval areas covered with gray sheets of skin (scale) and is often accompanied by hair loss. The patches may be red and inflamed, and small pus-filled bumps (pustules) may appear.
+						\n Also, tiny black dots may appear on the surface of the scalp, consisting of broken hairs.Certain areas (lymph nodes) at the back of the scalp, behind the ears, or along the sides of the neck may be swollen.One complication of scalp ringworm is a kerion, which is a large, oozing, pus-filled lump. If not treated aggressively, a kerion can lead to scarring and permanent hair loss.
+				"\n\nTreatment:\n\nTo confirm the diagnosis of scalp ringworm, the physician might scrape some surface skin scales onto a slide and examine them under a microscope.his procedure, called a KOH (potassium hydroxide) preparation,
+						\nallows the doctor to look for tell-tale signs of fungal infection.Sometimes the doctor will also perform a culture in order to document the presence of fungus or to discover the particular fungus that is causing the scalp ringworm.The procedure involves:
+						\n1.Plucking a few hairs from involved areas of the scalp
+						\n2.Rubbing a sterile cotton-tipped applicator across the skin to collect scale and any pus
+						\n3.Sending the specimen away to a laboratory
+						\nScalp ringworm is treated with oral antifungal medicines because the fungus invades deep into the hair follicle, where topical creams and lotions cannot penetrate.Scalp ringworm usually requires at least 6–8 weeks of treatment with oral antifungal pills or syrup, including:
+						\nGriseofulvin
+						\nTerbinafine
+						\nItraconazole
+						\nFluconazole
+						\nKetoconazole
+
+    						
+      </string>
+      
+ 	  <string name="child_disease_id_16">
+				"Overview:\n\nRheumatic fever is an inflammatory disease that occurs following a Streptococcus pyogenes infection, such as streptococcal pharyngitis. Believed to be caused by antibody cross-reactivity that can involve the heart, joints, skin, and brain,
+					   \n the illness typically develops two to three weeks after a streptococcal infection.
+				"\n\nSymptoms:\n\nAbdominal pain
+						\nNose bleeds
+						\nPreceding streptococcal infection: recent scarlet fever, raised antistreptolysin O or other streptococcal antibody titre, or positive throat culture.
+				"\n\nTreatment:\n\nThe management of acute rheumatic fever is geared toward the reduction of inflammation with anti-inflammatory medications such as aspirin or corticosteroids. Individuals with positive cultures for strep throat should also be treated with antibiotics. Aspirin is the drug of choice and should be given at high doses of 100 mg/kg/day.
+						\n One should watch for side effects like gastritis and salicylate poisoning.n children and teenagers, the use of aspirin and aspirin-containing products can be associated with Reye's syndrome, a serious and potentially deadly condition. Another important cornerstone in treating rheumatic fever includes the continual use of low-dose antibiotics (such as penicillin, sulfadiazine, or erythromycin) to prevent recurrence.
+						\nVaccine:
+						\nNo vaccines are currently available to protect against S. pyogenes infection, although there has been research into the development of one. Difficulties in developing a vaccine include the wide variety of strains of S. pyogenes present in the environment and the large amount of time and people that will be needed for appropriate trials for safety and efficacy of the vaccine.
+						\nInfection:
+						\nThe most appropriate treatment stated in the Oxford Handbook of Clinical Medicine for rheumatic fever is benzathine benzylpenicillin.
+						\nInflammation:
+						\nPatients with significant symptoms may require corticosteroids. Salicylates are useful for pain.
+						\nHeart failure:
+						\nSome patients develop significant carditis which manifests as congestive heart failure. This requires the usual treatment for heart failure: ACE inhibitors, diuretics, beta blockers, and digoxin. 
+
+				"\n\nPrevention:\n\nPrevention of recurrence is achieved by eradicating the acute infection and prophylaxis with antibiotics.The American Heart Association suggests that people with a history of bacterial endocarditis may wish to consider long-term antibiotic prophylaxis.
+    						
+      </string>
+      
+ 	  <string name="child_disease_id_17">
+				"Overview:\n\nRickets is defective mineralization of bones before epiphyseal closure in immature mammals due to deficiency or impaired metabolism of vitamin D,[1] phosphorus or calcium,[2] potentially leading to fractures and deformity.
+					    \nRickets is among the most frequent childhood diseases in many developing countries  Although it can occur in adults, the majority of cases occur in children suffering from severe malnutrition, usually resulting from famine or starvation during the early stages of childhood.
+				"\n\nCauses:\n\nThe primary cause of rickets is a vitamin D deficiency.[8] Vitamin D is required for proper calcium absorption from the gut. Sunlight, The primary cause of rickets is a vitamin D deficiency.[8] Vitamin D is required for proper calcium absorption from the gut. Sunlight,
+					     \nespecially ultraviolet light, lets human skin cells convert vitamin D from an inactive to active state. In the absence of vitamin D, dietary calcium is not properly absorbed, resulting in hypocalcaemia, leading to skeletal and dental deformities and neuromuscular symptoms,
+					    \ne.g. hyperexcitability. Foods that contain vitamin D include butter, eggs, fish liver oils, margarine, fortified milk and juice, portabella and shiitake mushrooms, and oily fishes such as tuna, herring, and salmon.A rare X-linked dominant form exists called vitamin D-resistant rickets or X-linked hypophosphatemia.
+				"\n\nTreatment:\n\nThe treatment and prevention of rickets is known as antirachitic. The most common treatment of rickets is the use of Vitamin D.[20] However, surgery may be required to remove severe bone abnormalities.
+						\nDiet and sunlight:
+						\nTreatment involves increasing dietary intake of calcium, phosphates and vitamin D. Exposure to ultraviolet B light (most easily obtained when the sun is highest in the sky), cod liver oil, halibut-liver oil, and viosterol are all sources of vitamin D.
+						\nRecommendations are for 400 international units (IU) of vitamin D a day for infants and children.Children who do not get adequate amounts of vitamin D are at increased risk of rickets.Vitamin D is essential for allowing the body to uptake calcium for use in proper bone calcification and maintenance.
+						\nSupplementation:
+						\nSufficient vitamin D levels can also be achieved through dietary supplementation and/or exposure to sunlight. Vitamin D3 (cholecalciferol) is the preferred form since it is more readily absorbed than vitamin D2. Most dermatologists recommend vitamin D supplementation as an alternative to unprotected ultraviolet 
+						\nexposure due to the increased risk of skin cancer associated with sun exposure. Endogenous production with full body exposure to sunlight is approximately 250 µg (10,000 IU) per day.
+					   	
+    						
+      </string>
+      
+ 	  
+ 	  <string name="child_disease_id_18">
+				"Overview:\n\nRubella, also known as German measles or three-day measles,[1] is a disease caused by the rubella virus.The name "rubella" was derived from Latin, meaning little red.
+					    \nRubella is also known as German measles because the disease was first described by German physicians in the mid-eighteenth century.This disease is often mild and attacks often pass unnoticed. The disease can last one to three days. Children recover more quickly than adults.
+					    \n Infection of the mother by rubella virus during pregnancy can be serious; if the mother is infected within the first 20 weeks of pregnancy, the child may be born with congenital rubella syndrome (CRS), which entails a range of serious incurable illnesses.
+				"\n\nCauses:\n\nThe disease is caused by Rubella virus, a togavirus that is enveloped and has a single-stranded RNA genome.The virus is transmitted by the respiratory route and replicates 
+						\nin the nasopharynx and lymph nodes. The virus is found in the blood 5 to 7 days after infection and spreads throughout the body.The virus has teratogenic properties and is 
+						\ncapable of crossing the placenta and infecting the fetus where it stops cells from developing or destroys them During this incubation period, the patient is contagious typically for about one week before he/she develops a rash and for about one week thereafter.
+
+				"\n\nSymptoms:\n\nIn children Rubella normally causes symptoms which last two days and include the following:
+						\nRash beginning on the face which spreads to the rest of the body.
+						\nLow fever of less than 38.3 °C (101 °F).
+						\nPosterior cervical lymphadenopathy.[
+						\nIn older children and adults additional symptoms including the following may be present:
+						\nSwollen glands
+						\nCoryza (cold like symptoms)
+						\nAching joints (especially in young women)
+					\nSerious problems can occur including the following:
+					\nBrain infections
+					\nBleeding problems.
+				"\n\nTreatment:\n\nThere is no specific treatment for Rubella; however, management is a matter of responding to symptoms to diminish discomfort.Treatment of newly born babies is focused on management of the complications. 
+					\n Congenital heart defects[citation needed] and cataracts can be corrected by direct surgery.
+					\nManagement for ocular congenital rubella syndrome (CRS) is similar to that for age-related macular degeneration, including counseling, regular monitoring, and the provision of low vision devices, if required.
+				"\n\nPrevention:\n\nRubella infections are prevented by active immunisation programs using live, disabled virus vaccines. Two live attenuated virus vaccines,RA 27/3 and Cendehill strains, were 
+						\neffective in the prevention of adult disease. However their use in prepubertile females did not produce a significant fall in the overall incidence rate of CRS in the UK. Reductions 
+						\nwere only achieved by immunisation of all children.The vaccine is now usually given as part of the MMR vaccine. The WHO recommends the first dose is given at 12 to 18 months of age with a second dose at 36 months
+						\n Pregnant women are usually tested for immunity to rubella early on. Women found to be susceptible are not vaccinated until after the baby is born because the vaccine contains live virus.
+						\nThe immunisation program has been quite successful. Cuba declared the disease eliminated in the 1990s, and in 2004 the Centers for Disease Control and Prevention announced that both the congenital and acquired forms of rubella had been eliminated from the United States.
+    						
+      </string>
+      
+ 	  <string name="child_disease_id_19">
+				"Overview:\n\nTetanus (from Ancient Greek: t?ta??? tetanos “taut”, and te??e?? teinein "to stretch") is a medical condition characterized by a prolonged contraction of skeletal muscle fibers.The primary symptoms are caused by tetanospasmin, a neurotoxin produced by
+					  \n the Gram-positive, rod-shaped, obligate anaerobic bacterium Clostridium tetani.Infection generally occurs through wound contamination and often involves a cut or deep puncture wound. As the infection progresses, muscle spasms develop in the jaw (thus the name lockjaw) and elsewhere in the body.
+					  \nInfection can be prevented by proper immunization or post-exposure prophylaxi.
+
+				"\n\nCauses:\n\nTetanus is caused by the tetanus bacterium Clostridium tetani.[11] Tetanus is often associated with rust, especially rusty nails. Objects that accumulate rust are often found Tetanus is caused by the tetanus bacterium Clostridium tetani.[11] Tetanus is often associated with rust, especially rusty nails. Objects that accumulate rust are often found 
+					   \noutdoors, or in places that harbour anaerobic bacteria, but the rust itself does not cause tetanus nor does it contain more C.tetani bacteria. The rough surface of rusty metal merely provides a prime habitat for C.
+					   \ntetani endospores to reside in, and the nail affords a means to puncture skin and deliver endospores deep within the body at the site of the wound.
+				"\n\nSymptoms:\n\nTetanus often begins with mild spasms in the jaw muscles—also known as lockjaw or trismus. The spasms can also affect the chest, neck, back, abdominal muscles,
+					      \nand buttocks. Back muscle spasms often cause arching, called opisthotonos. Sometimes the spasms affect muscles that help with breathing, which can lead to breathing problems.
+						\nProlonged muscular action causes sudden, powerful, and painful contractions of muscle groups, which is called "tetany".These episodes can cause fractures and muscle tears. 
+						\nOther symptoms include drooling, excessive sweating, fever, hand or foot spasms, irritability, swallowing difficulty, and uncontrolled urination or defecation.The episodes can also cause destruction of elements of the nervous system through viral cell exchange.
+				"\n\nTreatment:\n\nMild tetanus:
+						\nMild cases of tetanus can be treated with:
+
+						\ntetanus immunoglobulin, also called tetanus antibodies or tetanus antitoxin.It can be given as intravenous therapy or by intramuscular injection.
+						\nmetronidazole IV for 10 days.
+						\ndiazepam.
+						\nSevere tetanus[edit]
+				\nSevere cases will require admission to intensive care. In addition to the measures listed above for mild tetanus:
+
+				\nHuman tetanus immunoglobulin injected intrathecally (increases clinical improvement from 4% to 35%)
+				\nTracheotomy and mechanical ventilation for 3 to 4 weeks. Tracheotomy is recommended for securing the airway, because the presence of an endotracheal tube is a stimulus for spasm
+				\nMagnesium, as an intravenous (IV) infusion, to prevent muscle spasm
+				\nDiazepam as a continuous IV infusion.
+    						
+      </string>
+      
+	 	  <string name="child_disease_id_20">
+		"Overview:\n\nTuberculosis, MTB, or TB (short for tubercle bacillus), in the past also called phthisis, phthisis pulmonalis, or consumption, is a common, and in many cases fatal, infectious disease caused by various strains of mycobacteria, usually Mycobacterium tuberculosis.
+			    \nTuberculosis typically attacks the lungs, but can also affect other parts of the body. It is spread through the air when people who have an active TB infection cough, sneeze, or otherwise transmit respiratory fluids through the air.
+		"\n\nCauses:\n\nMycobacteria:
+				\nThe main cause of TB is Mycobacterium tuberculosis, a small, aerobic, nonmotile bacillus.[9] The high lipid content of this pathogen accounts for many of its unique clinical characteristics.
+				\nIt divides every 16 to 20 hours, which is an extremely slow rate compared with other bacteria, which usually divide in less than an hour. Mycobacteria have an outer membrane lipid bilayer.[20] If a Gram stain is performed, MTB either stains very weakly "Gram-positive"
+				\n or does not retain dye as a result of the high lipid and mycolic acid content of its cell wall.[21] MTB can withstand weak disinfectants and survive in a dry state for weeks.. In nature, the bacterium can grow only within the cells of a host organism, but M. tuberculosis can be cultured in the laboratory.
+		"\n\nSymptoms:\n\nTuberculosis may infect any part of the body, but most commonly occurs in the lungs (known as pulmonary tuberculosis).Extrapulmonary TB occurs when tuberculosis develops outside of the lungs,although extrapulmonary TB may coexist with pulmonary TB as well.
+				\nGeneral signs and symptoms include fever, chills, night sweats, loss of appetite, weight loss, and fatigue.[9] Significant finger clubbing may also occur.
+		"\n\nPrevention:\n\nTuberculosis prevention and control efforts primarily rely on the vaccination of infants and the detection and appropriate treatment of active cases.The World Health Organization has achieved some success with improved treatment regimens, and a small decrease in case numbers.
+				\nVaccines:
+				\nThe only currently available vaccine as of 2011 is bacillus Calmette–Guérin (BCG) which, while it is effective against disseminated disease in childhood, confers inconsistent protection against contracting pulmonary TB.
+				\nNevertheless, it is the most widely used vaccine worldwide, with more than 90% of all children being vaccinated.[7] However, the immunity it induces decreases after about ten years.[7] As tuberculosis is uncommon in most of Canada, the United Kingdom, and the United States, BCG is only administered to
+				\npeople at high risk.
+				\nPublic health:
+				\nThe World Health Organization declared TB a "global health emergency" in 1993,[7] and in 2006, the Stop TB Partnership developed a Global Plan to Stop Tuberculosis that aims to save 14 million lives between its launch and 2015.
+				\nA number of targets they have set are not likely to be achieved by 2015, mostly due to the increase in HIV-associated tuberculosis and the emergence of multiple drug-resistant tuberculosis (MDR-TB).
+				\nA tuberculosis classification system developed by the American Thoracic Society is used primarily in public health programs.[72]
+    						
+      </string>
+      
+ 	  <string name="child_disease_id_21">
+"Overview:\n\n
+"\n\nSymptoms:\n\n
+"\n\nTreatment:\n\n
+    						
+      </string>
+
+ 	  <string name="child_disease_id_22">
+		"Overview:\n\nHepatitis A (formerly known as infectious hepatitis) is an acute infectious disease of the liver caused by the hepatitis A virus (HAV).
+			   \nMany cases have little or no symptoms especially in the young.[2] The time between infection and symptoms, in those who develop them, is between two and six weeks.
+			   \nIt is usually spread by eating or drinking food or water contaminated with infected feces.[2] Shellfish which have not been sufficiently cooked is a relatively common source.
+			   \nIt may also be spread through close contact with an infectious person.[2] While children often do not have symptoms when infected they are still able to infect others.
+		"\n\nSymptoms:\n\nEarly symptoms of hepatitis A infection can be mistaken for influenza, but some sufferers, especially children, exhibit no symptoms at all. Symptoms typically appear 2 to 6 weeks
+				\n(the incubation period) after the initial infection.[10] 90% of children do not have symptoms.The time between infection and symptoms, in those who develop them, is between two
+				\nand six weeks with an average of 28 days.Symptoms usually last less than 2 months, although some people can be ill for as long as 6 months:
+				\nFatigue
+				\nFever
+				\nNausea
+				\nAppetite loss
+				\nJaundice, a yellowing of the skin or whites of the eyes due to hyperbilirubinemia
+				\nBile is removed from blood stream and excreted in urine, giving it a dark amber colour
+				\nDiarrhea
+				\nClay-coloured feces
+		"\n\nTreatment:\n\nThere is no specific treatment for hepatitis A. Sufferers are advised to rest, avoid fatty foods and alcohol (these may be poorly tolerated for some additional months during the
+				\nrecovery phase and cause minor relapses), eat a well-balanced diet, and stay hydrated.
+		"\n\nPrevention:\n\nHepatitis A can be prevented by vaccination, good hygiene and sanitation.There are two types of vaccines: one containing inactivated hepatitis A virus, and another containing a live but attenuated virus.
+				\nBoth provide active immunity against a future infection. The vaccine protects against HAV in more than 95% of cases for longer than 25 years.The vaccine is given by injection. An initial dose provides protection starting two to four 
+				\nweeks after vaccination; the second booster dose, given six to twelve months later, provides protection for over twenty years.
+    						
+      </string>
+      
+ 	  <string name="child_disease_id_23">
+				"Overview:\n\nFever (also known as pyrexia[1] or febrile response) is one of the most common medical signs and is characterized by an elevation
+					  \nFever (also known as pyrexia[1] or febrile response) is one of the most common medical signs and is characterized by an elevation 
+					   \npoint.[2] This increase in set-point triggers increased muscle tone and chills.As a person's temperature increases, there is, in general, a feeling of cold despite an
+					   \n increase in body temperature. Once body temperature has increased to the new set-point temperature, there is a feeling of warmth.
+				"\n\nSymptoms:\n\nA fever is usually accompanied by sickness behavior, which consists of lethargy, depression, anorexia, sleepiness, hyperalgesia, and the inability to concentrate.
+				"\n\nManagement:\n\nFever should not necessarily be treated.[30] Most people recover without specific medical attention. Although it is unpleasant, fever rarely rises to a dangerous level even if untreated. Damage to the brain generally does not occur until temperatures reach 42 °C (107.6 °F),
+				     		\nand it is rare for an untreated fever to exceed 40.6 °C (105 °F).
+						\nConservative measures:
+						\nSome limited evidence supports sponging or bathing feverish children with tepid water.[32] The use of a fan or air conditioning may somewhat reduce the temperature and increase
+						\ncomfort. If the temperature reaches the extremely high level of hyperpyrexia, aggressive cooling is required.[14] In general, people are advised to keep adequately hydrated.
+						\nMedications:
+						\nMedications that lower fevers are called antipyretics. The antipyretic ibuprofen is effective in reducing fevers in children.It is more effective than acetaminophen
+						\n(paracetamol) in children. Ibuprofen and acetaminophen may be safely used together in children with fevers.The efficacy of acetaminophen by itself in children with fevers has been
+						\nquestioned.Ibuprofen is also superior to aspirin in children with fevers.Additionally, aspirin is not recommended in children and young adults (those under the age of 16 or
+						\n19 depending on the country) due to the risk of Reye's syndrome.Using both paracetamol and ibrupofen at the same time or alternative between the two is more effective 
+						 \nat decreasing fever than using only paracetamol or ibuprofen.
+    						
+      </string>
+      
+ 	  <string name="child_disease_id_24">
+				"Overview:\n\nScarlet fever is an infection with a type of bacteria called Streptococcus, which 
+					 \nnot only causes a throat infection ("strep throat"), but also produces a poison (toxin) causing the distinctive rash of scarlet fever.
+					  \nSome people are more sensitive to the toxin than others, so not everyone in a family who is infected will have the rash even if they have the throat infection.
+				"\n\nSymptoms:\n\nScarlet fever is accompanied by a sandpaper-like rash of 1–2 mm red bumps,which merge together, starting on the neck,
+						\nthen moving to the trunk, and finally to the arms and legs (extremities). It is sometimes a bit itchy. If scarlet fever 
+						\ndevelops on body creases (armpits, elbow folds), red streaks may appear.
+				"\n\nTreatment:\n\nThe doctor will usually do a throat or skin culture or a rapid-strep test to confirm the diagnosis.
+						\nIf Streptococcus infection is confirmed, prescription antibiotics are will be prescribed, to be taken for about 10 days.
+    						
+      </string>
+      
     
 </resources>
