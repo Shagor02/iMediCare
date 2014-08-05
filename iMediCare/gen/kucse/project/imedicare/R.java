@@ -26,6 +26,7 @@ public final class R {
         public static final int water=0x7f02000c;
     }
     public static final class id {
+<<<<<<< HEAD
         public static final int A1=0x7f070003;
         public static final int A2=0x7f070004;
         public static final int AB1=0x7f070007;
@@ -66,6 +67,47 @@ public final class R {
         public static final int txtPharmacy=0x7f070017;
         public static final int txtTips=0x7f070016;
         public static final int txtWater=0x7f07001e;
+=======
+        public static final int A1=0x7f060003;
+        public static final int A2=0x7f060004;
+        public static final int AB1=0x7f060007;
+        public static final int AB2=0x7f060008;
+        public static final int B1=0x7f060005;
+        public static final int B2=0x7f060006;
+        public static final int BloodGroup=0x7f06001c;
+        public static final int Disease=0x7f060022;
+        public static final int FirstAid=0x7f060014;
+        public static final int Food_Nutrition=0x7f06001f;
+        public static final int Heart=0x7f06001b;
+        public static final int Hospital=0x7f060020;
+        public static final int Name_Bar=0x7f060012;
+        public static final int O1=0x7f060009;
+        public static final int O2=0x7f06000a;
+        public static final int Pharmacy=0x7f060018;
+        public static final int SCROLLER_ID1=0x7f060000;
+        public static final int Tips=0x7f060013;
+        public static final int Water=0x7f060024;
+        public static final int bloodGroupCheckertextView=0x7f060001;
+        public static final int bloodgroupcheck=0x7f06000b;
+        public static final int dental_careSearchTexView=0x7f06000c;
+        public static final int dental_care_listview=0x7f06000d;
+        public static final int dental_care_name=0x7f06000e;
+        public static final int dialogButtonOK=0x7f060011;
+        public static final int iMedicare=0x7f060026;
+        public static final int image=0x7f06000f;
+        public static final int map=0x7f060025;
+        public static final int radioGroup=0x7f060002;
+        public static final int text=0x7f060010;
+        public static final int txtBloodGroup=0x7f060021;
+        public static final int txtDisease=0x7f06001a;
+        public static final int txtFirstAid=0x7f060015;
+        public static final int txtFood_Nutrition=0x7f06001d;
+        public static final int txtHeartRate=0x7f060019;
+        public static final int txtHospital=0x7f060023;
+        public static final int txtPharmacy=0x7f060017;
+        public static final int txtTips=0x7f060016;
+        public static final int txtWater=0x7f06001e;
+>>>>>>> 8c20ddcfdab0774f3f3139500446e1a53802644e
     }
     public static final class layout {
         public static final int bloodgroupchecker=0x7f030000;
@@ -75,12 +117,19 @@ public final class R {
         public static final int dental_care_list_items=0x7f030004;
         public static final int dialogbox=0x7f030005;
         public static final int main_menu=0x7f030006;
+<<<<<<< HEAD
         public static final int muscle_exercise=0x7f030007;
         public static final int shape=0x7f030008;
         public static final int startingscreen=0x7f030009;
     }
     public static final class menu {
         public static final int options=0x7f060000;
+=======
+        public static final int map=0x7f030007;
+        public static final int muscle_exercise=0x7f030008;
+        public static final int shape=0x7f030009;
+        public static final int startingscreen=0x7f03000a;
+>>>>>>> 8c20ddcfdab0774f3f3139500446e1a53802644e
     }
     public static final class string {
         public static final int A1=0x7f040000;
