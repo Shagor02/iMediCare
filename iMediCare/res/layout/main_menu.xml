@@ -1,53 +1,212 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" 
-    android:background="@drawable/main_background">
+    android:background="#D2F4FF"
+    android:orientation="vertical"
+     >
 
-    <Button
-        android:id="@+id/MuscleExerciseMenuBtn"
-        android:layout_width="200dp"
+    <TextView
+        android:id="@+id/Name_Bar"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginTop="50dp"
-      
-        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:background="#008FD5"
         android:gravity="center"
-        android:padding="10dp"
-        android:background="@layout/shape"
-        android:text="Muscle Exercise" />
+        android:textStyle="bold"
+        android:text="iMediCare Menu"
+        android:textColor="#FFFFFF" />
 
     <Button
-        android:id="@+id/BloodGroupCheckMenuBtn"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
+        android:id="@+id/HealthTipsMenuBtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignBaseline="@+id/FirstAid"
+        android:layout_alignBottom="@+id/FirstAid"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/tips" />
+
+    <TextView
+        android:id="@+id/txtFirstAid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_below="@+id/FirstAid"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="First Aid" />
+
+    <TextView
+        android:id="@+id/txtTips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtFirstAid"
+        android:layout_alignBottom="@+id/txtFirstAid"
+        android:layout_centerHorizontal="true"
+        
+          android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Health Tips" />
+
+    <TextView
+        android:id="@+id/txtPharmacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_below="@+id/Pharmacy"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+           android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Pharmacy" />
+
+    <TextView
+        android:id="@+id/txtHeartRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtDisease"
+        android:layout_alignBottom="@+id/txtDisease"
+        android:layout_alignLeft="@+id/Heart"
+        android:layout_marginBottom="25dp"
+           android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Heart Rate" />
+
+    <Button
+        android:id="@+id/BloodGroupChecker"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignRight="@+id/txtPharmacy"
+        android:layout_below="@+id/txtPharmacy"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/blood" />
+
+    <TextView
+        android:id="@+id/txtFood_Nutrition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtWater"
+        android:layout_alignBottom="@+id/txtWater"
+        android:layout_alignLeft="@+id/Food_Nutrition"
+           android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Nutrition" />
+
+    <Button
+        android:id="@+id/Hospital"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Name_Bar"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/hospital" />
+
+    <Button
+        android:id="@+id/Food_Nutrition"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/txtBloodGroup"
+        android:layout_alignRight="@+id/txtHeartRate"
+        android:layout_marginRight="0dp"
+         android:layout_marginTop="32dp"
+        android:background="@drawable/nutrition" />
+
+    <Button
+        android:id="@+id/Disease"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/txtTips"
+        android:layout_marginLeft="0dp"
+         android:layout_marginTop="20dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/disease" />
+
+    <TextView
+        android:id="@+id/txtBloodGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_below="@+id/BloodGroupChecker"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="18dp"
+           android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Blood Group" />
+
+    <Button
+        android:id="@+id/FirstAid"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/Hospital"
+        android:layout_alignBottom="@+id/Hospital"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/first_aid" />
+
+    <Button
+        android:id="@+id/Pharmacy"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:padding="10dp"
-        android:background="@layout/shape"
-        android:text="Blood Group Check" />
+        android:layout_centerVertical="true"
+        android:background="@drawable/pharmacy" />
+
+    <TextView
+        android:id="@+id/txtHospital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtTips"
+        android:layout_alignBottom="@+id/txtTips"
+        android:layout_alignLeft="@+id/Hospital"
+           android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Hospital" />
+
+    <TextView
+        android:id="@+id/txtDisease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/BloodGroupChecker"
+        android:layout_marginBottom="25dp"
+        android:layout_alignLeft="@+id/HealthTipsMenuBtn"
+           android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Diseases" />
+
+    <TextView
+        android:id="@+id/txtWater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtBloodGroup"
+        android:layout_alignBottom="@+id/txtBloodGroup"
+        android:layout_centerHorizontal="true"
+           android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Water" />
 
     <Button
-        android:id="@+id/ChildDiseasesBtn"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:padding="10dp"
-        android:background="@layout/shape"
-        android:text="Child Diseases" />
+        android:id="@+id/Water"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+         android:layout_marginTop="32dp"
+        android:layout_above="@+id/txtBloodGroup"
+        android:layout_alignLeft="@+id/txtDisease"
+        android:background="@drawable/water" />
 
     <Button
-        android:id="@+id/DentalOralCareBtn"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:padding="10dp"
-        android:background="@layout/shape"
-        android:text="Oral Diseases" />
+        android:id="@+id/Heart"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+         android:layout_marginTop="20dp"
+        android:layout_above="@+id/txtPharmacy"
+        android:layout_alignLeft="@+id/txtHospital"
+        android:background="@drawable/heart" />
 
-</LinearLayout>
+</RelativeLayout>

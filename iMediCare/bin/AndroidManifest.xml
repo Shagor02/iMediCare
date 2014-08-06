@@ -4,7 +4,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="13"
+        android:minSdkVersion="8"
         android:targetSdkVersion="19" />
 
     <application
@@ -13,77 +13,126 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         
-        
-   <activity
-           android:name="kucse.project.imedicare.MainMenu"
-           android:label="@string/app_name" 
-           
-           android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
-            >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-                
-            </intent-filter>
-            
-   </activity>
-  <!-- Muscle Exercise Layout   -->
-      <activity 
-       		android:label="@string/app_name" 
-       		android:name="kucse.project.imedicare.MuscleExercise"
-         	
-       >
-    	<intent-filter>
-        
-    		<action android:name="android.intent.action.MuscleExercise"/>
-       			<category android:name="android.intent.category.DEFAULT"/>
-     	</intent-filter>
-        
-  </activity>
-  
-
-  <!-- Blood Group Donar Checker Layout -->
-   <activity 
-       		android:label="@string/app_name" 
-       		android:name="kucse.project.imedicare.BloodGroupDonarChecker"
-         	android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
-       >
-    	<intent-filter>
-        
-    		<action android:name="android.intent.action.BloodGroupDonarChecker"/>
-       			<category android:name="android.intent.category.DEFAULT"/>
-     	</intent-filter>
-        
-  </activity>
-  
-    <!-- Child Diseases Layout -->
-     <activity 
-       		android:label="@string/app_name" 
-       		android:name="kucse.project.imedicare.ChildDiseases"
-         	android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
-       >
-    	<intent-filter>
-        
-    		<action android:name="android.intent.action.ChildDiseases"/>
-       			<category android:name="android.intent.category.DEFAULT"/>
-     	</intent-filter>
-        
-  </activity>
-
-<!-- Oral Diseases Layout -->
-       <activity 
-       		android:label="@string/app_name" 
-       		android:name="kucse.project.imedicare.DentalOralCare"
-         	android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
-       >
-    	<intent-filter>
-        
-    		<action android:name="android.intent.action.DentalOralCare"/>
-       			<category android:name="android.intent.category.DEFAULT"/>
-     	</intent-filter>
-        
-  </activity>
+            <!-- Starting Thread Layout   -->
+			   <activity
+			           android:name="kucse.project.imedicare.StartingActivity"
+			           android:label="@string/app_name" 
+			           
+			           android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+			            >
+			            <intent-filter>
+			                <action android:name="android.intent.action.MAIN" />
+			
+			                <category android:name="android.intent.category.LAUNCHER" />
+			                
+			            </intent-filter>
+			            
+			   </activity>
+			
+			  
+			    <!-- Main Menu Layout   -->
+			         <activity 
+			       		android:label="@string/app_name" 
+			       		android:name="kucse.project.imedicare.MainMenu"
+			         	
+			       >
+			    	<intent-filter>
+			        
+			    		<action android:name="android.intent.action.MainMenu"/>
+			       			<category android:name="android.intent.category.DEFAULT"/>
+			     	</intent-filter>
+			        
+			  </activity>
+			  
+			  <!-- Health Tips Menu Layout   -->
+			         <activity 
+			       		android:label="@string/app_name" 
+			       		android:name="kucse.project.imedicare.HealthTipsMenu"
+			       		android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+			         	
+			       >
+			    	<intent-filter>
+			        
+			    		<action android:name="android.intent.action.MainMenu"/>
+			       			<category android:name="android.intent.category.DEFAULT"/>
+			     	</intent-filter>
+			        
+			  </activity>
+			
+			         
+			  
+			       <!-- Disease Menu Layout     --> 
+			  <activity 
+			       		android:label="@string/app_name" 
+			       		android:name="kucse.project.imedicare.DiseaseMenu"
+			         	
+			       >
+			    	<intent-filter>
+			        
+			    		<action android:name="android.intent.action.DiseaseMenu"/>
+			       			<category android:name="android.intent.category.DEFAULT"/>
+			     	</intent-filter>
+			        
+			  </activity>
+			
+			   
+			  <!-- Muscle Exercise Layout   -->
+			      <activity 
+			       		android:label="@string/app_name" 
+			       		android:name="kucse.project.imedicare.MuscleExercise"
+			         	
+			       >
+			    	<intent-filter>
+			        
+			    		<action android:name="android.intent.action.MuscleExercise"/>
+			       			<category android:name="android.intent.category.DEFAULT"/>
+			     	</intent-filter>
+			        
+			  </activity>
+			  
+			
+			  <!-- Blood Group Donar Checker Layout  -->
+			   <activity 
+			       		android:label="@string/app_name" 
+			       		android:name="kucse.project.imedicare.BloodGroupDonarChecker"
+			         	android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+			       >
+			    	<intent-filter>
+			        
+			    		<action android:name="android.intent.action.BloodGroupDonarChecker"/>
+			       			<category android:name="android.intent.category.DEFAULT"/>
+			     	</intent-filter>
+			        
+			  </activity>
+			 
+			  
+			    <!-- Child Diseases Layout -->
+			     <activity 
+			       		android:label="@string/app_name" 
+			       		android:name="kucse.project.imedicare.ChildDiseases"
+			         	android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+			       >
+			    	<intent-filter>
+			        
+			    		<action android:name="android.intent.action.ChildDiseases"/>
+			       			<category android:name="android.intent.category.DEFAULT"/>
+			     	</intent-filter>
+			        
+			  </activity>
+			
+			<!-- Oral Diseases Layout -->
+			       <activity 
+			       		android:label="@string/app_name" 
+			       		android:name="kucse.project.imedicare.DentalOralCare"
+			         	android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+			       >
+			    	<intent-filter>
+			        
+			    		<action android:name="android.intent.action.DentalOralCare"/>
+			       			<category android:name="android.intent.category.DEFAULT"/>
+			     	</intent-filter>
+			        
+			  </activity>
        
         
     </application>

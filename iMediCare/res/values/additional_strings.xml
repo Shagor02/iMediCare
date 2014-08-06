@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Child_Diseases_Wellcome">
+        "Click The button bellow to get your Child Diseases information and treatment"
+    </string>
+    
+        <string name="Dental_Diseases_Wellcome">
+        "Click The button bellow to get your Oral Diseases information and Treatment"
+    </string>
+</resources>

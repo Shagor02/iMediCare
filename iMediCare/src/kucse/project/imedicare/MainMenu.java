@@ -3,40 +3,60 @@ package kucse.project.imedicare;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Toast;
 
 public class MainMenu extends Activity {
-	
-	 private Button MuscleExerciseMenuBtn;
-	 private Button BloodGroupCheckMenuBtn;
-	 private Button ChildDiseasesBtn;
-	 private Button DentalOralCareBtn;
-	 
+	 private Button DiseasesMenuBtn;
+	 private Button BloodGroupCheckBtn;
+	 private Button HealthTipsMenuBtn;
+
+	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, 
+        WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
 		setContentView(R.layout.main_menu);
 		
-		MuscleExerciseMenuBtn= (Button)findViewById(R.id.MuscleExerciseMenuBtn);
-		BloodGroupCheckMenuBtn= (Button)findViewById(R.id.BloodGroupCheckMenuBtn);
-		ChildDiseasesBtn= (Button)findViewById(R.id.ChildDiseasesBtn);
-		DentalOralCareBtn= (Button)findViewById(R.id.DentalOralCareBtn);
+		DiseasesMenuBtn= (Button)findViewById(R.id.Disease);
+		BloodGroupCheckBtn= (Button)findViewById(R.id.BloodGroupChecker);
+		HealthTipsMenuBtn = (Button)findViewById(R.id.HealthTipsMenuBtn);
 		
-		MuscleExerciseMenuBtn.setOnClickListener(new View.OnClickListener() {
+		HealthTipsMenuBtn.setOnClickListener(new View.OnClickListener() {
 		     
 	        @Override
 	        public void onClick(View v) {
 
-	      	  Intent in=new Intent(MainMenu.this,MuscleExercise.class);
+	      	  Intent in=new Intent(MainMenu.this,HealthTipsMenu.class);
 	      	  startActivity(in);
-	      	  Toast.makeText(MainMenu.this,"Muscle Exercise",
+	      	  Toast.makeText(MainMenu.this,"Health Tips",
 	                    Toast.LENGTH_SHORT).show();
 		
 			  }       
 	  });
 		
-		BloodGroupCheckMenuBtn.setOnClickListener(new View.OnClickListener() {
+		
+		DiseasesMenuBtn.setOnClickListener(new View.OnClickListener() {
+		     
+	        @Override
+	        public void onClick(View v) {
+
+	      	  Intent in=new Intent(MainMenu.this,DiseaseMenu.class);
+	      	  startActivity(in);
+	      	  Toast.makeText(MainMenu.this,"Disease",
+	                    Toast.LENGTH_SHORT).show();
+		
+			  }       
+	  });
+	
+		BloodGroupCheckBtn.setOnClickListener(new View.OnClickListener() {
 		     
 	        @Override
 	        public void onClick(View v) {
@@ -48,32 +68,37 @@ public class MainMenu extends Activity {
 		
 			  }       
 	  });
-		
-		ChildDiseasesBtn.setOnClickListener(new View.OnClickListener() {
-		     
-	        @Override
-	        public void onClick(View v) {
-
-	      	  Intent in=new Intent(MainMenu.this,ChildDiseases.class);
-	      	  startActivity(in);
-	      	  Toast.makeText(MainMenu.this,"Child Diseases",
-	                    Toast.LENGTH_SHORT).show();
-		
-			  }       
-	  });
-		
-		DentalOralCareBtn.setOnClickListener(new View.OnClickListener() {
-		     
-	        @Override
-	        public void onClick(View v) {
-
-	      	  Intent in=new Intent(MainMenu.this,DentalOralCare.class);
-	      	  startActivity(in);
-	      	  Toast.makeText(MainMenu.this,"Oral Diseases",
-	                    Toast.LENGTH_SHORT).show();
-		
-			  }       
-	  });
+			
+				
 	}
 
+	
+	@Override
+	public boolean onCreateOptionsMenu(android.view.Menu menu) {
+
+		 super.onCreateOptionsMenu(menu);
+		MenuInflater blow = getMenuInflater();
+		blow.inflate(R.menu.options, menu);
+		return true;
+	}
+
+
+	@Override
+	public boolean onContextItemSelected(MenuItem item) {
+		switch(item.getItemId())
+		{
+		case R.id.aboutUs:
+			
+			break;
+		case R.id.exit:
+			finish();
+			break;
+		
+		}
+		
+		
+		return false;
+	}
+
+	
 }

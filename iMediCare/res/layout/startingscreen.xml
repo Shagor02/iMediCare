@@ -9,7 +9,7 @@
         android:id="@+id/iMedicare"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:text="iMedicare"
+        android:text="iMediCare"
         android:textColor="#FFFFFF" 
         android:gravity="center"
         android:textSize="50dp"
