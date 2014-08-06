@@ -78,46 +78,45 @@ public class ChildDiseases extends Activity{
 		    			dialog.show();
 		    			text.setMovementMethod(new ScrollingMovementMethod());
 		    			
-		   /* 			
+		    			
 		    			if(id==0){
 		    				
-		    				text.setText(R.string.child_disease_id_0);
+		    				text.setText(R.string.disease_id_0);
 		    				}
 		    			if(id==1){
 		    				
-		    				text.setText(R.string.child_disease_id_1);
+		    				text.setText(R.string.disease_id_1);
 		    			}
 	        
 	                    if(id==2){
-	                    	text.setText(R.string.child_disease_id_2);
+	                    	text.setText(R.string.disease_id_2);
 	                    }
 	                    if(id==3){
-	                    	text.setText(R.string.child_disease_id_3);
+	                    	text.setText(R.string.disease_id_3);
 	                    }
 	                    
 	                    if(id==4){
-	                    	text.setText(R.string.child_disease_id_4);
+	                    	text.setText(R.string.disease_id_4);
 	                    }
 	                    if(id==5){
-	                    	text.setText(R.string.child_disease_id_5);
+	                    	text.setText(R.string.disease_id_5);
 	                    }
 	                    if(id==6){
-	                    	text.setText(R.string.child_disease_id_6);
+	                    	text.setText(R.string.disease_id_6);
 	                    }
 	                    if(id==7){
-	                    	text.setText(R.string.child_disease_id_7);
+	                    	text.setText(R.string.disease_id_7);
 	                    }
 	                    if(id==8){
-	                    	text.setText(R.string.child_disease_id_8);
+	                    	text.setText(R.string.disease_id_8);
 	                    }
 	                    if(id==9){
-	                    	text.setText(R.string.child_disease_id_9);
+	                    	text.setText(R.string.disease_id_9);
 	                    	
 	                    }
 	                    if(id==10){
-	                    	text.setText(R.string.child_disease_id_10);
+	                    	text.setText(R.string.disease_id_10);
 	                    }
-	                    */
 				}	
 				
 			});

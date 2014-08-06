@@ -15,7 +15,7 @@
         
         
    <activity
-           android:name="kucse.project.imedicare.StartingPoint"
+           android:name="kucse.project.imedicare.MainMenu"
            android:label="@string/app_name" 
            
            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
@@ -28,19 +28,6 @@
             </intent-filter>
             
    </activity>
-   
-         <activity 
-       		android:label="@string/app_name" 
-       		android:name="kucse.project.imedicare.MainMenu"
-         	
-       >
-    	<intent-filter>
-        
-    		<action android:name="android.intent.action.MuscleExercise"/>
-       			<category android:name="android.intent.category.DEFAULT"/>
-     	</intent-filter>
-        
-  </activity>
   <!-- Muscle Exercise Layout   -->
       <activity 
        		android:label="@string/app_name" 
@@ -97,17 +84,7 @@
      	</intent-filter>
         
   </activity>
-       <activity
-            android:name="kucse.project.imedicare.MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppBaseTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
- 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-           
-       </activity>
+       
         
     </application>
 

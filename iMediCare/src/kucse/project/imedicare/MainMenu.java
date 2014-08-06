@@ -1,78 +1,79 @@
 package kucse.project.imedicare;
 
-
-
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
-<<<<<<< HEAD
-import android.view.MenuInflater;
-import android.view.MenuItem;
-=======
->>>>>>> 8c20ddcfdab0774f3f3139500446e1a53802644e
-import android.view.Window;
-import android.view.WindowManager;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 public class MainMenu extends Activity {
 	
-<<<<<<< HEAD
-	@Override
+	 private Button MuscleExerciseMenuBtn;
+	 private Button BloodGroupCheckMenuBtn;
+	 private Button ChildDiseasesBtn;
+	 private Button DentalOralCareBtn;
+	 
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, 
-        WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
 		setContentView(R.layout.main_menu);
 		
+		MuscleExerciseMenuBtn= (Button)findViewById(R.id.MuscleExerciseMenuBtn);
+		BloodGroupCheckMenuBtn= (Button)findViewById(R.id.BloodGroupCheckMenuBtn);
+		ChildDiseasesBtn= (Button)findViewById(R.id.ChildDiseasesBtn);
+		DentalOralCareBtn= (Button)findViewById(R.id.DentalOralCareBtn);
 		
-				// android:background="#008FD5"
-				
+		MuscleExerciseMenuBtn.setOnClickListener(new View.OnClickListener() {
+		     
+	        @Override
+	        public void onClick(View v) {
+
+	      	  Intent in=new Intent(MainMenu.this,MuscleExercise.class);
+	      	  startActivity(in);
+	      	  Toast.makeText(MainMenu.this,"Muscle Exercise",
+	                    Toast.LENGTH_SHORT).show();
+		
+			  }       
+	  });
+		
+		BloodGroupCheckMenuBtn.setOnClickListener(new View.OnClickListener() {
+		     
+	        @Override
+	        public void onClick(View v) {
+
+	      	  Intent in=new Intent(MainMenu.this,BloodGroupDonarChecker.class);
+	      	  startActivity(in);
+	      	  Toast.makeText(MainMenu.this,"Blood Group Donar Checker",
+	                    Toast.LENGTH_SHORT).show();
+		
+			  }       
+	  });
+		
+		ChildDiseasesBtn.setOnClickListener(new View.OnClickListener() {
+		     
+	        @Override
+	        public void onClick(View v) {
+
+	      	  Intent in=new Intent(MainMenu.this,ChildDiseases.class);
+	      	  startActivity(in);
+	      	  Toast.makeText(MainMenu.this,"Child Diseases",
+	                    Toast.LENGTH_SHORT).show();
+		
+			  }       
+	  });
+		
+		DentalOralCareBtn.setOnClickListener(new View.OnClickListener() {
+		     
+	        @Override
+	        public void onClick(View v) {
+
+	      	  Intent in=new Intent(MainMenu.this,DentalOralCare.class);
+	      	  startActivity(in);
+	      	  Toast.makeText(MainMenu.this,"Oral Diseases",
+	                    Toast.LENGTH_SHORT).show();
+		
+			  }       
+	  });
 	}
-
-	
-	@Override
-	public boolean onCreateOptionsMenu(android.view.Menu menu) {
-
-		 super.onCreateOptionsMenu(menu);
-		MenuInflater blow = getMenuInflater();
-		blow.inflate(R.menu.options, menu);
-		return true;
-	}
-
-
-	@Override
-	public boolean onContextItemSelected(MenuItem item) {
-		switch(item.getItemId())
-		{
-		case R.id.aboutUs:
-			
-			break;
-		case R.id.exit:
-			finish();
-			break;
-		
-		}
-		
-		
-		return false;
-	}
-=======
-	 
-	 @Override
-		protected void onCreate(Bundle savedInstanceState) {
-			super.onCreate(savedInstanceState);
-			requestWindowFeature(Window.FEATURE_NO_TITLE);
-	        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, 
-	        WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
-			setContentView(R.layout.main_menu);
-			
-			
-					// android:background="#008FD5"
-					
-		
-		}
->>>>>>> 8c20ddcfdab0774f3f3139500446e1a53802644e
-
 
 }
