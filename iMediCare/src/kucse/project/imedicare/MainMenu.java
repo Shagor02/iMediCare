@@ -15,6 +15,7 @@ public class MainMenu extends Activity {
 	 private Button DiseasesMenuBtn;
 	 private Button BloodGroupCheckBtn;
 	 private Button HealthTipsMenuBtn;
+	 private Button Pharmacy;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +29,22 @@ public class MainMenu extends Activity {
 		DiseasesMenuBtn= (Button)findViewById(R.id.Disease);
 		BloodGroupCheckBtn= (Button)findViewById(R.id.BloodGroupChecker);
 		HealthTipsMenuBtn = (Button)findViewById(R.id.HealthTipsMenuBtn);
+		Pharmacy=(Button)findViewById(R.id.Pharmacy);
+		
+		Pharmacy.setOnClickListener(new View.OnClickListener() {
+		     
+	        @Override
+	        public void onClick(View v) {
+
+	      	  Intent in=new Intent(MainMenu.this,Map.class);
+	      	  startActivity(in);
+	      	  Toast.makeText(MainMenu.this,"Pharmacy",
+	                    Toast.LENGTH_SHORT).show();
+		
+			  }       
+	  });
+		
+		
 		
 		HealthTipsMenuBtn.setOnClickListener(new View.OnClickListener() {
 		     
